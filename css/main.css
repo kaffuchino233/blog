@@ -1245,7 +1245,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #124bb8;
+  background: #8f1cd4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2712,7 +2712,7 @@ body {
   margin-top: 12px;
 }
 .site-meta {
-  background: url("http://cdn.zzwwqq.xyz/static/images/hexo/hexo-0-site-meta.jpg");
+  color: #4dfc23;
 }
 .brand {
   color: #fff;
