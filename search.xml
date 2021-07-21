@@ -200,6 +200,21 @@
       </tags>
   </entry>
   <entry>
+    <title>玩客云重启后MAC地址更改的解决办法</title>
+    <url>/page/8d4ac757.html</url>
+    <content><![CDATA[<h2 id="观前提醒"><a href="#观前提醒" class="headerlink" title="观前提醒"></a>观前提醒</h2><p>本方法是作者在powersee大佬的<a href="https://www.bilibili.com/video/BV1kT4y1P7RL">【玩客云】疑难杂症大汇合（持续更新）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>这个视频的评论区看到的，感谢@<a href="https://space.bilibili.com/353496393">JamesYYM</a></p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>先用SSH连接玩客云，输入nano /etc/network/interfaces</p>
+<p>找到hwaddress那一行，在那一行前面加#注释掉。</p>
+<span id="more"></span>  
+
+<p>再在下面那一行添加 pre-up ifconfig eth0 hw ether xx:xx:xx:xx:xx（xx:xx:xx:xx:xx为你想更改的MAC地址）</p>
+<p><img src="https://ivanstar.gitee.io/markdown-photo/wky-mac/fbK5WpDRTI2gmQG.png" alt="photo.png"></p>
+]]></content>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>玩客云安装宝塔5.9</title>
     <url>/page/9062.html</url>
     <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>通过SSH登录服务器，输入</p>
@@ -210,21 +225,6 @@
 <p>然后再安装，你就能安装成功了~</p>
 <h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href="http://www.zzvips.com/article/89523.html">Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法_Ubuntu_服务器之家 (zzvips.com)</a></p>
 <p><a href="http://www.kiver.cn/news/content/268.html">Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法 - 奇维云 (kiver.cn)</a></p>
-]]></content>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云重启后MAC地址更改的解决办法</title>
-    <url>/page/8d4ac757.html</url>
-    <content><![CDATA[<h2 id="观前提醒"><a href="#观前提醒" class="headerlink" title="观前提醒"></a>观前提醒</h2><p>本方法是作者在powersee大佬的<a href="https://www.bilibili.com/video/BV1kT4y1P7RL">【玩客云】疑难杂症大汇合（持续更新）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>这个视频的评论区看到的，感谢@<a href="https://space.bilibili.com/353496393">JamesYYM</a></p>
-<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>先用SSH连接玩客云，输入nano /etc/network/interfaces</p>
-<p>找到hwaddress那一行，在那一行前面加#注释掉。</p>
-<span id="more"></span>  
-
-<p>再在下面那一行添加 pre-up ifconfig eth0 hw ether xx:xx:xx:xx:xx（xx:xx:xx:xx:xx为你想更改的MAC地址）</p>
-<p><img src="https://ivanstar.gitee.io/markdown-photo/wky-mac/fbK5WpDRTI2gmQG.png" alt="photo.png"></p>
 ]]></content>
       <tags>
         <tag>玩客云</tag>

@@ -1245,7 +1245,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bfffcb;
+  background: #01f553;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2562,7 +2562,7 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("https://ivanstar.gitee.io/markdown-photo/gogo.jpeg");
+  background: url("https://ivanstar.gitee.io/markdown-photo/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
