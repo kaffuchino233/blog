@@ -1245,7 +1245,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e333bd;
+  background: #bfffcb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2562,7 +2562,7 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("https://ivanstar.gitee.io/markdown-photo/bg.jpg");
+  background: url("https://ivanstar.gitee.io/markdown-photo/gogo.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2612,7 +2612,7 @@ body {
   margin-top: 12px;
 }
 .site-meta {
-  background: url("https://ivanstar.gitee.io/markdown-photo/hexo-blog.png");
+  background: url("https://ivanstar.gitee.io/markdown-photo/photo.png");
 }
 .brand {
   color: #fff;
