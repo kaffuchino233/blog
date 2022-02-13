@@ -115,6 +115,9 @@
 <p>SFTP：账户root，密码powersee233</p>
 <p>transmission：账号admin，密码admin（默认停用，要去Portainer里面启用）</p>
 ]]></content>
+      <categories>
+        <category>玩客云</category>
+      </categories>
       <tags>
         <tag>玩客云</tag>
       </tags>
@@ -180,6 +183,9 @@
 <h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href="http://www.zzvips.com/article/89523.html">Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法_Ubuntu_服务器之家 (zzvips.com)</a></p>
 <p><a href="http://www.kiver.cn/news/content/268.html">Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法 - 奇维云 (kiver.cn)</a></p>
 ]]></content>
+      <categories>
+        <category>玩客云</category>
+      </categories>
       <tags>
         <tag>玩客云</tag>
       </tags>
@@ -190,19 +196,22 @@
     <content><![CDATA[<h2 id="观前提醒"><a href="#观前提醒" class="headerlink" title="观前提醒"></a>观前提醒</h2><p>本方法是作者在powersee大佬的<a href="https://www.bilibili.com/video/BV1kT4y1P7RL">【玩客云】疑难杂症大汇合（持续更新）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>这个视频的评论区看到的，感谢@<a href="https://space.bilibili.com/353496393">JamesYYM</a></p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>先用SSH连接玩客云，输入nano /etc/network/interfaces</p>
 <p>找到hwaddress那一行，在那一行前面加#注释掉。</p>
-<span id="more"></span>  
+<span id="more"></span>
 
 <p>再在下面那一行添加 pre-up ifconfig eth0 hw ether xx:xx:xx:xx:xx（xx:xx:xx:xx:xx为你想更改的MAC地址）</p>
 <p><img src="https://ivanstar.gitee.io/markdown-photo/wky-mac/fbK5WpDRTI2gmQG.png" alt="photo.png"></p>
 ]]></content>
+      <categories>
+        <category>玩客云</category>
+      </categories>
       <tags>
         <tag>玩客云</tag>
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/page/0.html</url>
-    <content><![CDATA[<h1 id="长达6天的Havoc-4-12使用体验"><a href="#长达6天的Havoc-4-12使用体验" class="headerlink" title="# 长达6天的Havoc 4.12使用体验"></a># 长达6天的Havoc 4.12使用体验</h1><p>瞎说：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。</p>
+    <title>长达6天的Havoc 4.12使用体验</title>
+    <url>/page/c65cc841.html</url>
+    <content><![CDATA[<p>前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。</p>
 <p>这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。</p>
 <p>简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。</p>
 <p>Bug：无</p>
@@ -258,5 +267,11 @@
 <p>Havoc 4.13 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.13-20220201-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p>
 <p>Havoc 4.12 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.12-20220118-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p>
 ]]></content>
+      <categories>
+        <category>ROM体验</category>
+      </categories>
+      <tags>
+        <tag>AOSP</tag>
+      </tags>
   </entry>
 </search>
