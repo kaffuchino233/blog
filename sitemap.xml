@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.bluemap.cc/page/c715e3c5.html</loc>
+    
+    <lastmod>2022-02-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.bluemap.cc/page/9062.html</loc>
+    
+    <lastmod>2022-02-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.bluemap.cc/page/6ed29aa3.html</loc>
+    
+    <lastmod>2022-02-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.bluemap.cc/page/0.html</loc>
+    
+    <lastmod>2022-02-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.bluemap.cc/friendlink/index.html</loc>
     
     <lastmod>2021-07-21</lastmod>
@@ -44,59 +72,24 @@
   </url>
   
   <url>
-    <loc>https://www.bluemap.cc/page/c715e3c5.html</loc>
-    
-    <lastmod>2021-07-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.bluemap.cc/404.html</loc>
     
     <lastmod>2021-07-19</lastmod>
     
   </url>
   
-  <url>
-    <loc>https://www.bluemap.cc/page/29282.html</loc>
-    
-    <lastmod>2021-04-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.bluemap.cc/page/6ed29aa3.html</loc>
-    
-    <lastmod>2021-04-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.bluemap.cc/page/9062.html</loc>
-    
-    <lastmod>2021-04-09</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://www.bluemap.cc/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2022-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.bluemap.cc/tags/Hexo-hexo-%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2021-07-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.bluemap.cc/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2022-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,7 +98,7 @@
   
   <url>
     <loc>https://www.bluemap.cc/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2022-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
