@@ -129,20 +129,20 @@
 <span id="more"></span>
 
 <h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/crpg.png" alt="crpg.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
 <p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/0755.png" alt="0755.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/0755.png" alt="0755.png"></p>
 <p>然后cd /你放cloudreve的文件夹，执行./cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开玩客云的IP:5212，例如我的玩客云的ip为192.168.1.5（你们的会不一样），那我访问1921.168.1.5:5212就可以进入cloudreve的管理页面。</p>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>输入刚刚的账号密码登录，点击右上角的那个小人头像，再弹出来的菜单里选择管理面板。</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/consle.png" alt="consle.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
 <p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到/mnt/wd这个目录，那这里就填/mnt/wd，以此类推，剩下的可以不管，保存即可。</p>
 <p>chucun.png</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/chucun.png" alt="chucun.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
 <p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，名字也要叫uploads，建立连接/快捷方式到这里写你的硬盘挂载的位置，这样子资料也能存在我们的硬盘里</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/link2.png" alt="link2.png"></p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/link.png" alt="link.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/link2.png" alt="link2.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
 <p>找到用户组，把管理员的最大容量设置大一点，我这里设置成1000t，免得以后加硬盘又要改，然后保存即可。</p>
-<p><img src="https://gitee.com/ivanstar/Photo/raw/main/cr/1000t.png" alt="1000t.png"></p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/1000t.png" alt="1000t.png"></p>
 <p>到这里基本就配置好了，剩下的个性化设置你自己去摸索吧。</p>
 <h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
 <p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
