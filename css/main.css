@@ -1245,7 +1245,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a7f6eb;
+  background: #75ff6e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2562,7 +2562,7 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("https://ivanstar.gitee.io/markdown-photo/bg.jpg");
+  background: url("https://s1.ax1x.com/2022/04/23/LW0FsS.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2612,7 +2612,7 @@ body {
   margin-top: 12px;
 }
 .site-meta {
-  background: url("https://ivanstar.gitee.io/markdown-photo/photo.png");
+  background: url("https://s1.ax1x.com/2022/04/23/LW0URx.png");
 }
 .brand {
   color: #fff;

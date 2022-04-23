@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.bluemap.cc/page/8d4ac757.html</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.bluemap.cc/page/c715e3c5.html</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.bluemap.cc/page/6ed29aa3.html</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.bluemap.cc/page/c65cc841.html</loc>
     
     <lastmod>2022-02-13</lastmod>
@@ -9,28 +30,7 @@
   </url>
   
   <url>
-    <loc>https://www.bluemap.cc/page/8d4ac757.html</loc>
-    
-    <lastmod>2022-02-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.bluemap.cc/page/9062.html</loc>
-    
-    <lastmod>2022-02-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.bluemap.cc/page/6ed29aa3.html</loc>
-    
-    <lastmod>2022-02-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.bluemap.cc/page/c715e3c5.html</loc>
     
     <lastmod>2022-02-13</lastmod>
     
@@ -81,7 +81,7 @@
 
   <url>
     <loc>https://www.bluemap.cc/</loc>
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -89,14 +89,14 @@
   
   <url>
     <loc>https://www.bluemap.cc/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.bluemap.cc/tags/AOSP/</loc>
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,14 +105,14 @@
   
   <url>
     <loc>https://www.bluemap.cc/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.bluemap.cc/categories/ROM%E4%BD%93%E9%AA%8C/</loc>
-    <lastmod>2022-02-13</lastmod>
+    <lastmod>2022-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
