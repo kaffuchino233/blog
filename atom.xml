@@ -6,7 +6,7 @@
   <link href="https://www.bluemap.cc/atom.xml" rel="self"/>
   
   <link href="https://www.bluemap.cc/"/>
-  <updated>2022-04-23T05:24:26.282Z</updated>
+  <updated>2022-06-20T03:25:50.076Z</updated>
   <id>https://www.bluemap.cc/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Chiron的一些碎碎念</title>
+    <link href="https://www.bluemap.cc/page/8ff3.html"/>
+    <id>https://www.bluemap.cc/page/8ff3.html</id>
+    <published>2022-06-20T02:48:39.000Z</published>
+    <updated>2022-06-20T03:25:50.076Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="来由"><a href="#来由" class="headerlink" title="来由"></a>来由</h2><p>时隔半年的更新。</p><p>去年我在海鲜市场收到了一台6+128的chiron，带我开机了搞机之路。</p><p>当时是580收的（现在一想好亏），电池只剩百分之50，用了半年就去换了中电4000。</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>我还记得我是被chiron这垃圾的拍照所困扰，看了某酷安员工（@匿名游客）的视频，便打算开始自己装Gcam提升拍照体验</p><p>我用的是最后一个版本的miui稳定版，问题来了，我不会Root，我就下了奇兔刷机，然后花10大洋买了一个只带Magisk的MIUI稳定版，刷了上去，发现Gcam还是弄不好，hal3根本开不起来，我就去酷安找到了Acme（现MIUICX）的官改开发版，这次就舒服很多，一次成功</p><p>2周后…</p><p>由于MIUI过于傻逼，我就给chiron刷上了LineageOS18，结果因为屏幕色温偏黄被我立刻换成DotOS了，此后用了很久，期间也试过Syberia、PEP、Arrow、ShapeShift、Cherish、exTHmUI、POSP等Rom</p><p>再往后就到了2022年，由于过于眼馋Android12，我就刷了Eovliu做的DerpFest，结果不知道为何返回手势有问题，贼难触发，我就刷了Huexxx的ProtonAOSP和AOSP12，结果都是两毛坯房，Proton有段时间甚至出现了全部应用闪退等情况，十分的不爽</p><p>机缘巧合下认识了@橙橙今天吃什么，他拉我进了OLX的Mix2的群，我也在里面做小白鼠测试别的包，也通过Chiron的boot和vendor开一加5T的包来用，不过效果都不大行</p><p>再往后就到了二月中，距离开学不远，我在开学前的最后一天看到了Shreyas发布的Evolution6的更新，立刻刷了上去，这是chiron bug最少的一个包（除去Proton和AOSP12），现在我还记得我的心情，当时我还激动的刷上去，发酷安。</p><h2 id="Buildbot"><a href="#Buildbot" class="headerlink" title="Buildbot"></a>Buildbot</h2><p>也是2月份，我用chiron的vendor和boot开了Sagit的exTHmUI和MikuUI，@了编译者，并私信他是否可以给chiron弄包，他也同意了，我就成了他的小白鼠，在他发布之前帮他测包</p><p>后来便向他请教编译相关的问题，最开始我连ify dt都不会，经常漏改东西，也麻烦了他许多次。在无数次的失败后，我构建出了CherishOS</p><p>此后便一发不可收拾，前段时间高考放假时我开了3台16c的epyc同时跑ROM，忙的不亦乐乎，可以为了一个bug想半天，可以为了编译Rom忙到3点睡觉</p><h2 id="退坑"><a href="#退坑" class="headerlink" title="退坑"></a>退坑</h2><p>Chiron到底有多少优点？</p><p>在我看来，只有好的设计，陶瓷后盖，全面屏等</p><p>而缺点又有多少？</p><p>包奇妙的前摄，现在看来有点难用的后置指纹，没有耳机孔，我这台乞丐版丧心病狂的6g运存，不支持双4g，卡2信号莫名其妙的弱，尿崩的原装电池，算法垃圾导致成像特别差的后摄，用Gcam前摄容易卡住，后摄一抖整个画面就糊掉的拍照体验，想拍完一张照片就要举好久（麒麟臂练习神器）</p><p>上上个个周末，我突然一想，我为chiron付出了多少时间？</p><p>这些时间远超过我购买这部机子的价格，我的生活也因此受到了很大的影响</p><p>于是，我停下了手上的编译，只留下2个自用的，其他全部停止</p><p>我的生活得以恢复正常</p><p>此时，因为Chiron没有可用的Recovery树（都太老了），我就和Shreyas一起研究这块</p><p>最开始是打算翻新一下之前别人写好的半成品树，可是分区表的问题一直无法解决，我也开摆了</p><p>一天早上，他甩给我一个链接，大概就是改别的机子的Recovery树的教程的，我一想，Sagit有树，而Chiron和Sagit的差距本身就很小，我是否可以通过改Sagit的树来修复分区表的问题？</p><p>我就试了一下，没想到真的可以，属实离谱</p><p>不过ADB Sideload还是炸了，因为此时有考试，我又开摆了，ADB Sideload的事情扔给Shreyas了</p><p>过了2天，Shreyas和我说修好了，并且发布了OrangeFox R11.2，他也向我的仓库提交了个pr，树基本完成</p><p>回家后我同意了他的pr，并且由于上述的缺点，我去酷安花850收了一个酷友的raphael（Redmi K20Pro/Mi 9T Pro），并且用400的价格卖掉了chiron，chiron的搞机之路，就此结束。</p><p>最后，感谢Chiron所带给我的这些。</p><h2 id="一些可能有价值的东西"><a href="#一些可能有价值的东西" class="headerlink" title="一些可能有价值的东西"></a>一些可能有价值的东西</h2><p>OrangeFox Tree:<a href="https://github.com/Rom-Builder/device_xiaomi-chiron-twrp.git">GitHub - Rom-Builder/device_xiaomi-chiron-twrp: Chiron OrangeFox Device Tree</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;来由&quot;&gt;&lt;a href=&quot;#来由&quot; class=&quot;headerlink&quot; title=&quot;来由&quot;&gt;&lt;/a&gt;来由&lt;/h2&gt;&lt;p&gt;时隔半年的更新。&lt;/p&gt;
+&lt;p&gt;去年我在海鲜市场收到了一台6+128的chiron，带我开机了搞机之路。&lt;/p&gt;
+&lt;p&gt;当时是580收的（现</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://www.bluemap.cc/categories/Android/"/>
+    
+    
+    <category term="Chiron" scheme="https://www.bluemap.cc/tags/Chiron/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>长达6天的Havoc 4.12使用体验</title>
+    <link href="https://www.bluemap.cc/page/c9f2.html"/>
+    <id>https://www.bluemap.cc/page/c9f2.html</id>
+    <published>2022-02-13T12:51:10.000Z</published>
+    <updated>2022-06-20T03:25:04.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。</p><p>这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。</p><p>简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。</p><p>Bug：无</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKClQ.png"></p><span id="more"></span><p>（SELinux宽容是因为Uperf的原因，目前已经弃用转为使用别的调度）</p><h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>这里先写缺点，把无法接受的先劝退，避免出现看了大半天文章结果在结尾发现自己不能接受的地方。</p><h3 id="无OTA"><a href="#无OTA" class="headerlink" title="无OTA"></a>无OTA</h3><p>无OTA，意味着每次更新都要去recovery里面手动刷，我能忍，问题不大。</p><h3 id="启动器掉帧"><a href="#启动器掉帧" class="headerlink" title="启动器掉帧"></a>启动器掉帧</h3><p>自带的是Shady launcher，原本以为还挺好用，直到我再次解锁手机，掉帧掉到离谱，评论区也有同样刷了此rom的酷友反馈此问题，并不是个例，这里我直接换lawnchair了。</p><p>部分类原生也有同样的问题，例如crDroid。</p><h3 id="无面部解锁"><a href="#无面部解锁" class="headerlink" title="无面部解锁"></a>无面部解锁</h3><p>这点可能有的人接受不了，我倒还好（毕竟Mix2的摄像头也挺容易被挡的），不能接受的还是绕道吧。</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKiOs.png"></p><h3 id="汉化不全"><a href="#汉化不全" class="headerlink" title="汉化不全"></a>汉化不全</h3><p>放张图，自己感受下</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKkmn.png"></p><p>我觉得无伤大雅。</p><h3 id="自带的内核随机写入很差"><a href="#自带的内核随机写入很差" class="headerlink" title="自带的内核随机写入很差"></a>自带的内核随机写入很差</h3><p>自带的内核随机写入表现没法看，因为AndroBench的截图被我手贱删了，这里只有历史截图。</p><p>换算一下大概就是随机写入30MB/s，这个速度无法接受。</p><p>这里替换了水龙做的exTHm的boot，充电看运气，我这里百分之20左右可以维持15w（应该是正常水平吧），如果速度下降的话可以试试快充模块（我这里刷快充模块充电速度会被锁在8.45W，你们自己测试吧），图为默认状态</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKPyj.png"></p><p>顺带一提这个问题很多类原生都有，并不是Havoc的问题。</p><h3 id="双击唤醒很智障"><a href="#双击唤醒很智障" class="headerlink" title="双击唤醒很智障"></a>双击唤醒很智障</h3><p>成功率一般，离谱的是有时候能唤醒有时候不能，挺鸡肋的，当做没法用吧，但是双击息屏就很好用，强烈推荐。</p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>接下来来到优点篇</p><h3 id="比较省电"><a href="#比较省电" class="headerlink" title="比较省电"></a>比较省电</h3><p>毕竟是a11，还是比较省电的，当然还是没有exTHmUI省电。</p><p>实测下来亮屏2-3小时（在1936毫安的官方电池下）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKeYT.png"></p><h3 id="自带电话可以录音"><a href="#自带电话可以录音" class="headerlink" title="自带电话可以录音"></a>自带电话可以录音</h3><p>自带电话可以录音，不需要装啥模块，蛮多类原生也有这个功能了。</p><h3 id="小白条长度可以调节"><a href="#小白条长度可以调节" class="headerlink" title="小白条长度可以调节"></a>小白条长度可以调节</h3><p>4档可调，最低档是隐藏，接下来依次变长，我觉得蛮实用的（不需要模块，就可以直接关掉这个在百分之90的APP里都不能沉浸的小白条）</p><h3 id="游戏模式"><a href="#游戏模式" class="headerlink" title="游戏模式"></a>游戏模式</h3><p>这个自带的游戏模式就很好用，特别是对于打音游，再也不用担心玩着玩着就自己回桌面了</p><p>1.以弹幕的形式显示通知</p><p>2.关闭自动亮度</p><p>3.关闭手势导航</p><p>4.自动接听电话</p><p>顺带一提也推荐大家开启“固定”</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKAwq.png"></p><p>主要就这个几个功能，反正就挺方便，这里要提一嘴某些Android Skin，至今做不到这几个功能。</p><h3 id="音量级数"><a href="#音量级数" class="headerlink" title="音量级数"></a>音量级数</h3><p>系统自带了一个音量级数的调节，不用刷模块了（</p><p>同时也有分应用音量调节，用米窗挂青年大学习或者遇到O泡果奶可以直接静音了（雾）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKET0.png"></p><h3 id="自定义选项多（？）"><a href="#自定义选项多（？）" class="headerlink" title="自定义选项多（？）"></a>自定义选项多（？）</h3><p>我自己用过的类原生不算特别多，只能说是把MIX2的类原生大部分都刷了一遍，私认为Havoc的自定义比较多，当然应该不是最多的。</p><h3 id="充电相关"><a href="#充电相关" class="headerlink" title="充电相关"></a>充电相关</h3><p>自带有充电相关的设置，例如充到多少停止充电啊、充到多少度就听充啊等等，大部分类原生有，不需要用Scene之类的软件来管理这块。</p><h3 id="杂念"><a href="#杂念" class="headerlink" title="杂念"></a>杂念</h3><h4 id="截图方面"><a href="#截图方面" class="headerlink" title="截图方面"></a>截图方面</h4><p>截图无延迟，但是没有自带长截图（crDroid和PEP10有，但是这两截图有延迟</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKZkV.png"></p><p>三指截图也是有的，不用担心（虽然我从来不用）</p><p>最后还做了一下降压，我这个835体质如图，中上水平，听说mix2的835体质普遍不好（？）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKmfU.png"></p><p>设置是大核降到2208，电压降100，GPU电压降200，小核默认</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对类原生感兴趣的同学，Havoc是值得一试的，尽管有很多缺点，但都有办法解决，先写到这里吧。</p><p>2022-2-13：</p><p>维护者Shreyas已经更新Havoc 4.13，整体变动不大，故此文仍适用。</p><p>目前Shreyas更新了Android12的evolutionX，故弃用Havoc，故许多问题我无法解答。</p><p>就先写到这里吧。</p><p>Havoc 4.13 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.13-20220201-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p><p>Havoc 4.12 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.12-20220118-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。&lt;/p&gt;
+&lt;p&gt;这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。&lt;/p&gt;
+&lt;p&gt;简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。&lt;/p&gt;
+&lt;p&gt;Bug：无&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/13/HrKClQ.png&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="ROM体验" scheme="https://www.bluemap.cc/categories/ROM%E4%BD%93%E9%AA%8C/"/>
+    
+    
+    <category term="AOSP" scheme="https://www.bluemap.cc/tags/AOSP/"/>
+    
+  </entry>
   
   <entry>
     <title>玩客云安装Cloudreve并设置开机自启</title>
@@ -79,31 +130,6 @@
     
     
     <category term="玩客云" scheme="https://www.bluemap.cc/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>长达6天的Havoc 4.12使用体验</title>
-    <link href="https://www.bluemap.cc/page/c9f2.html"/>
-    <id>https://www.bluemap.cc/page/c9f2.html</id>
-    <published>2021-02-13T12:51:10.000Z</published>
-    <updated>2022-06-18T07:28:12.717Z</updated>
-    
-    <content type="html"><![CDATA[<p>前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。</p><p>这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。</p><p>简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。</p><p>Bug：无</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKClQ.png"></p><span id="more"></span><p>（SELinux宽容是因为Uperf的原因，目前已经弃用转为使用别的调度）</p><h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>这里先写缺点，把无法接受的先劝退，避免出现看了大半天文章结果在结尾发现自己不能接受的地方。</p><h3 id="无OTA"><a href="#无OTA" class="headerlink" title="无OTA"></a>无OTA</h3><p>无OTA，意味着每次更新都要去recovery里面手动刷，我能忍，问题不大。</p><h3 id="启动器掉帧"><a href="#启动器掉帧" class="headerlink" title="启动器掉帧"></a>启动器掉帧</h3><p>自带的是Shady launcher，原本以为还挺好用，直到我再次解锁手机，掉帧掉到离谱，评论区也有同样刷了此rom的酷友反馈此问题，并不是个例，这里我直接换lawnchair了。</p><p>部分类原生也有同样的问题，例如crDroid。</p><h3 id="无面部解锁"><a href="#无面部解锁" class="headerlink" title="无面部解锁"></a>无面部解锁</h3><p>这点可能有的人接受不了，我倒还好（毕竟Mix2的摄像头也挺容易被挡的），不能接受的还是绕道吧。</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKiOs.png"></p><h3 id="汉化不全"><a href="#汉化不全" class="headerlink" title="汉化不全"></a>汉化不全</h3><p>放张图，自己感受下</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKkmn.png"></p><p>我觉得无伤大雅。</p><h3 id="自带的内核随机写入很差"><a href="#自带的内核随机写入很差" class="headerlink" title="自带的内核随机写入很差"></a>自带的内核随机写入很差</h3><p>自带的内核随机写入表现没法看，因为AndroBench的截图被我手贱删了，这里只有历史截图。</p><p>换算一下大概就是随机写入30MB/s，这个速度无法接受。</p><p>这里替换了水龙做的exTHm的boot，充电看运气，我这里百分之20左右可以维持15w（应该是正常水平吧），如果速度下降的话可以试试快充模块（我这里刷快充模块充电速度会被锁在8.45W，你们自己测试吧），图为默认状态</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKPyj.png"></p><p>顺带一提这个问题很多类原生都有，并不是Havoc的问题。</p><h3 id="双击唤醒很智障"><a href="#双击唤醒很智障" class="headerlink" title="双击唤醒很智障"></a>双击唤醒很智障</h3><p>成功率一般，离谱的是有时候能唤醒有时候不能，挺鸡肋的，当做没法用吧，但是双击息屏就很好用，强烈推荐。</p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>接下来来到优点篇</p><h3 id="比较省电"><a href="#比较省电" class="headerlink" title="比较省电"></a>比较省电</h3><p>毕竟是a11，还是比较省电的，当然还是没有exTHmUI省电。</p><p>实测下来亮屏2-3小时（在1936毫安的官方电池下）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKeYT.png"></p><h3 id="自带电话可以录音"><a href="#自带电话可以录音" class="headerlink" title="自带电话可以录音"></a>自带电话可以录音</h3><p>自带电话可以录音，不需要装啥模块，蛮多类原生也有这个功能了。</p><h3 id="小白条长度可以调节"><a href="#小白条长度可以调节" class="headerlink" title="小白条长度可以调节"></a>小白条长度可以调节</h3><p>4档可调，最低档是隐藏，接下来依次变长，我觉得蛮实用的（不需要模块，就可以直接关掉这个在百分之90的APP里都不能沉浸的小白条）</p><h3 id="游戏模式"><a href="#游戏模式" class="headerlink" title="游戏模式"></a>游戏模式</h3><p>这个自带的游戏模式就很好用，特别是对于打音游，再也不用担心玩着玩着就自己回桌面了</p><p>1.以弹幕的形式显示通知</p><p>2.关闭自动亮度</p><p>3.关闭手势导航</p><p>4.自动接听电话</p><p>顺带一提也推荐大家开启“固定”</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKAwq.png"></p><p>主要就这个几个功能，反正就挺方便，这里要提一嘴某些Android Skin，至今做不到这几个功能。</p><h3 id="音量级数"><a href="#音量级数" class="headerlink" title="音量级数"></a>音量级数</h3><p>系统自带了一个音量级数的调节，不用刷模块了（</p><p>同时也有分应用音量调节，用米窗挂青年大学习或者遇到O泡果奶可以直接静音了（雾）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKET0.png"></p><h3 id="自定义选项多（？）"><a href="#自定义选项多（？）" class="headerlink" title="自定义选项多（？）"></a>自定义选项多（？）</h3><p>我自己用过的类原生不算特别多，只能说是把MIX2的类原生大部分都刷了一遍，私认为Havoc的自定义比较多，当然应该不是最多的。</p><h3 id="充电相关"><a href="#充电相关" class="headerlink" title="充电相关"></a>充电相关</h3><p>自带有充电相关的设置，例如充到多少停止充电啊、充到多少度就听充啊等等，大部分类原生有，不需要用Scene之类的软件来管理这块。</p><h3 id="杂念"><a href="#杂念" class="headerlink" title="杂念"></a>杂念</h3><h4 id="截图方面"><a href="#截图方面" class="headerlink" title="截图方面"></a>截图方面</h4><p>截图无延迟，但是没有自带长截图（crDroid和PEP10有，但是这两截图有延迟</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKZkV.png"></p><p>三指截图也是有的，不用担心（虽然我从来不用）</p><p>最后还做了一下降压，我这个835体质如图，中上水平，听说mix2的835体质普遍不好（？）</p><p><img src="https://s4.ax1x.com/2022/02/13/HrKmfU.png"></p><p>设置是大核降到2208，电压降100，GPU电压降200，小核默认</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对类原生感兴趣的同学，Havoc是值得一试的，尽管有很多缺点，但都有办法解决，先写到这里吧。</p><p>2022-2-13：</p><p>维护者Shreyas已经更新Havoc 4.13，整体变动不大，故此文仍适用。</p><p>目前Shreyas更新了Android12的evolutionX，故弃用Havoc，故许多问题我无法解答。</p><p>就先写到这里吧。</p><p>Havoc 4.13 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.13-20220201-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p><p>Havoc 4.12 Download: <a href="https://sourceforge.net/projects/chiron-a-11/files/Havoc/Havoc-OS-v4.12-20220118-chiron-Unofficial.zip/download">Download Chiron A-11 from SourceForge.net</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。&lt;/p&gt;
-&lt;p&gt;这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。&lt;/p&gt;
-&lt;p&gt;简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。&lt;/p&gt;
-&lt;p&gt;Bug：无&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/13/HrKClQ.png&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="ROM体验" scheme="https://www.bluemap.cc/categories/ROM%E4%BD%93%E9%AA%8C/"/>
-    
-    
-    <category term="AOSP" scheme="https://www.bluemap.cc/tags/AOSP/"/>
     
   </entry>
   

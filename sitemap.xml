@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.bluemap.cc/page/8ff3.html</loc>
+    
+    <lastmod>2022-06-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.bluemap.cc/page/c9f2.html</loc>
     
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     
   </url>
   
@@ -74,22 +81,29 @@
 
   <url>
     <loc>https://www.bluemap.cc/</loc>
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://www.bluemap.cc/tags/Chiron/</loc>
+    <lastmod>2022-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bluemap.cc/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.bluemap.cc/tags/AOSP/</loc>
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -97,15 +111,22 @@
 
   
   <url>
+    <loc>https://www.bluemap.cc/categories/Android/</loc>
+    <lastmod>2022-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bluemap.cc/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.bluemap.cc/categories/ROM%E4%BD%93%E9%AA%8C/</loc>
-    <lastmod>2022-06-18</lastmod>
+    <lastmod>2022-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
