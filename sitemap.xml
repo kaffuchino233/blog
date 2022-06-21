@@ -81,29 +81,29 @@
 
   <url>
     <loc>https://www.qkivan.ink/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.qkivan.ink/tags/Chiron/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <loc>https://www.qkivan.ink/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <loc>https://www.qkivan.ink/tags/Chiron/</loc>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/AOSP/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -111,22 +111,22 @@
 
   
   <url>
-    <loc>https://www.qkivan.ink/categories/Android/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <loc>https://www.qkivan.ink/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <loc>https://www.qkivan.ink/categories/Android/</loc>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/ROM%E4%BD%93%E9%AA%8C/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
