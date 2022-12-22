@@ -8,7 +8,7 @@
     <link href="/posts/41d219af/"/>
     <url>/posts/41d219af/</url>
     
-    <content type="html"><![CDATA[<h1 id="Project-Telescopium-13-0-4-Community-Build-For-raphael-x2F-raphaelin"><a href="#Project-Telescopium-13-0-4-Community-Build-For-raphael-x2F-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin</h1><p>Initial Project-Telescopium release based on Android 13</p><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p><p>Project-Telescopium Version: 13.0.4</p><p>Android Version:13(TD1A.221105.001)</p><p>Android Security Update: 5 November 2022</p><p>Build Date: 2022-12-15</p><p>Build variant: user</p><p>Maintainer: QKIvan</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul><li><p>Clean Flash</p></li><li><p>FBEv1 Build,Use Unofficial OrangeFox</p></li><li><p>Flash Android 11 firmware before you flash rom</p></li></ul><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update our prebuilt kernel(Use Wind+) </p><p>Improve paddings&#x2F;margins</p><p>Update build fingerprint</p><p>Enable some stuffs</p><p>Use GcamGo</p><p>Linux Kernel 4.14.275</p><p>Fix up charging issue</p><h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><p>Add Pocket Mode</p><p>Add Black Theme</p><p>Add Vibration patterns from OOS</p><p>Add Pulse and Ambient notification bars</p><p>Use MiSans as default fonts</p><p>Add Gamespace and reTicker</p><p>Add StatusBar Lyric</p><p>Add GamesProps for GameSpace</p><p>Add Strict Standby Policy</p><p>Add Data Switch QS Tile</p><p>Add Light QuickSettings</p><p>Fixed Camera</p><p>Make New QS Footer background translucent</p><p>Some Memory optimization from ProtonAOSP</p><p>And more…</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip/download">SourceForge.net</a></p><p><a href="https://cloud.qkivan.ink/Rom/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip">QKIvan’s Cloud</a></p><h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Project-Telescopium-13-0-4-Community-Build-For-raphael-x2F-raphaelin"><a href="#Project-Telescopium-13-0-4-Community-Build-For-raphael-x2F-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin</h1><p>Initial Project-Telescopium release based on Android 13</p><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p><p>Project-Telescopium Version: 13.0.4</p><p>Android Version:13(TD1A.221105.001)</p><p>Android Security Update: 5 November 2022</p><p>Build Date: 2022-12-15</p><p>Build variant: user</p><p>Maintainer: QKIvan</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul><li><p>Clean Flash</p></li><li><p>FBEv1 Build,Use Unofficial OrangeFox</p></li><li><p>Flash Android 11 firmware before you flash rom</p></li></ul><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update our prebuilt kernel(Use Wind+) </p><p>Improve paddings&#x2F;margins</p><p>Update build fingerprint</p><p>Enable some stuffs</p><p>Use GcamGo</p><p>Linux Kernel 4.14.275</p><p>Fix up charging issue</p><p>Use miui captive portal<br>Set globally accessible NTP server<br>Improve face unlock for popup camera<br>Don’t warn user about FC in Google TTS </p><h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><p>Add Pocket Mode</p><p>Add Black Theme</p><p>Add Vibration patterns from OOS</p><p>Add Pulse and Ambient notification bars</p><p>Use MiSans as default fonts</p><p>Add Gamespace and reTicker</p><p>Add StatusBar Lyric</p><p>Add GamesProps for GameSpace</p><p>Add Strict Standby Policy</p><p>Add Data Switch QS Tile</p><p>Add Light QuickSettings</p><p>Fixed Camera</p><p>Make New QS Footer background translucent</p><p>Some Memory optimization from ProtonAOSP</p><p>Implement lockscreen quick unlock<br>Override name of Mainland China carriers</p><p>Add haptic feedback for qs tiles</p><p>And more…</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip/download">SourceForge.net</a></p><p><a href="https://cloud.qkivan.ink/Rom/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip">QKIvan’s Cloud</a></p><h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>]]></content>
     
     
     <categories>
@@ -21,6 +21,81 @@
     <tags>
       
       <tag>Project-Telescopium</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PixelExperience Plus Update for raphael/raphaelin</title>
+    <link href="/posts/f4f12157/"/>
+    <url>/posts/f4f12157/</url>
+    
+    <content type="html"><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-x2F-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-x2F-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p><p>Build Variant: user</p><p>By QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul><li>Update redfin fingerprint</li><li>Configure aux camera for Aperture </li><li>Improve face unlock for popup camera</li><li>Don’t warn user about FC in Google TTS </li><li>Enable Face Unlock</li><li>Enable Quick Tap</li><li>Use release-key</li></ul><h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul><li>Switch to Plus Edition</li><li>Add Statusbar Lyric</li><li>Add haptic feedback for qs tiles</li><li>Add NFC tile </li><li>Add Data Switch QS Tile</li><li>Add Light QS</li><li>Safetynet Passed Without Root</li><li>Export RecordingService for External Usage </li><li>Reset props for status bar lyric</li><li>Reduce screenshot dismiss delay to 3 seconds</li><li>Implement lockscreen quick unlock</li><li>Override name of Mainland China carriers</li></ul><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>PixelExperience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>PixelExperience</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PixelExperience Unofficial 2022-11-06</title>
+    <link href="/posts/9e522b77/"/>
+    <url>/posts/9e522b77/</url>
+    
+    <content type="html"><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-x2F-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-x2F-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p><p>Build Variant: user</p><p>Android Version: 13</p><p>By QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul><li>Initial Build</li><li>October security patch</li><li>Kernel Upstream to 4.9.275</li><li>Import simplified Chinese translation in parts</li><li>Improve paddings&#x2F;margins</li><li>Fixed PPS charging</li><li>Disable blur on app launch</li><li>Enable background blur</li><li>Use miui captive portal</li><li>Set globally accessible NTP server</li><li>Use Clang-Proton to build</li></ul><h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul><li>Add Statusbar Lyric</li><li>Add per-app volume</li><li>Add NFC qs tile</li><li>Add Light qs</li><li>Add lockscreen quick unlock.</li><li>Allow user to add&#x2F;remove QS with one click</li><li>Use color accent for charging animation</li><li>Make New QS Footer background translucent</li></ul><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>PixelExperience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>PixelExperience</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>xdroidOSS 13-r8 Unofficial BETA</title>
+    <link href="/posts/10c41846/"/>
+    <url>/posts/10c41846/</url>
+    
+    <content type="html"><![CDATA[<h1 id="xdroidOSS-13-r8-Unofficial-BETA-for-raphael-x2F-raphaelin"><a href="#xdroidOSS-13-r8-Unofficial-BETA-for-raphael-x2F-raphaelin" class="headerlink" title="xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin"></a>xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Released: 08&#x2F;10&#x2F;‘22</p><p>Build Variant: user</p><p>Android Version: 13</p><p>By @QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Source-changelog"><a href="#Source-changelog" class="headerlink" title="Source changelog:"></a>Source changelog:</h3><p><a href="https://t.me/xdroid_news/359">@xdroid_news</a></p><h3 id="Device-changelog"><a href="#Device-changelog" class="headerlink" title="Device changelog:"></a>Device changelog:</h3><p>Initial Build</p><p>Use Proton-Clang</p><p>Improve paddings</p><p>Import simplified Chinese translation</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• FBEv1 Build<br>• Make a NAND Backup.<br>• Screen Off FOD doesn’t work<br>• OSS Vendor and Arrow Kernel<br>• Use Android 11 Firmware and OrangeFox Unofficial(FBEv1)</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivanrom/files/raphael/Android13/xdroid/INA.XD.13.0.r8-350810-raphael.REL.zip/download">SourceForge.net</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>xdroidOSS</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>xdroidOSS</tag>
       
     </tags>
     
