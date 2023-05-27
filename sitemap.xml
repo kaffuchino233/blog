@@ -4,16 +4,34 @@
   <url>
     <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
     
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/page/2827472a.html</loc>
+    <loc>https://www.qkivan.ink/page/ada3.html</loc>
     
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/bc20.html</loc>
+    
+    <lastmod>2023-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/2366.html</loc>
+    
+    <lastmod>2023-05-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,16 +40,7 @@
   <url>
     <loc>https://www.qkivan.ink/page/e942e730.html</loc>
     
-    <lastmod>2023-05-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/page/f4f12157.html</loc>
-    
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +49,34 @@
   <url>
     <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
     
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/f4f12157.html</loc>
+    
+    <lastmod>2023-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/2827472a.html</loc>
+    
+    <lastmod>2023-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/c9f2.html</loc>
+    
+    <lastmod>2023-05-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -50,42 +86,6 @@
     <loc>https://www.qkivan.ink/about/index.html</loc>
     
     <lastmod>2023-05-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/page/c9f2.html</loc>
-    
-    <lastmod>2022-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/page/bc20.html</loc>
-    
-    <lastmod>2022-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/page/2366.html</loc>
-    
-    <lastmod>2022-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/page/ada3.html</loc>
-    
-    <lastmod>2022-04-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -165,13 +165,27 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/tags/AOSP/</loc>
+    <loc>https://www.qkivan.ink/tags/Havoc/</loc>
     <lastmod>2023-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://www.qkivan.ink/categories/PixelExperience-Rom-Changelog/</loc>
+    <lastmod>2023-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/categories/Project-Telescopium-Rom-Changelog/</loc>
+    <lastmod>2023-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
@@ -181,28 +195,21 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/categories/Project-Telescopium/</loc>
+    <loc>https://www.qkivan.ink/categories/xdroidOSS-Rom-Changelog/</loc>
     <lastmod>2023-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/categories/xdroidOSS/</loc>
+    <loc>https://www.qkivan.ink/categories/%E7%9F%BF%E6%B8%A3/</loc>
     <lastmod>2023-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2023-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/categories/ROM%E4%BD%93%E9%AA%8C/</loc>
+    <loc>https://www.qkivan.ink/categories/Havoc/</loc>
     <lastmod>2023-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
