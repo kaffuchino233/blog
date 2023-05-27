@@ -6,7 +6,7 @@
   <link href="https://www.qkivan.ink/atom.xml" rel="self"/>
   
   <link href="https://www.qkivan.ink/"/>
-  <updated>2023-05-27T06:13:57.837Z</updated>
+  <updated>2023-05-27T06:29:15.884Z</updated>
   <id>https://www.qkivan.ink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.qkivan.ink/page/2827472a.html"/>
     <id>https://www.qkivan.ink/page/2827472a.html</id>
     <published>2022-12-24T18:10:56.000Z</published>
-    <updated>2023-05-27T06:13:57.837Z</updated>
+    <updated>2023-05-27T06:29:15.884Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</h1><p>A Hotfix version for raphael/raphaelin.</p><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)</p><p>Project-Telescopium Version: 13.0.4-HotFix</p><p>Android Version:13(TD1A.221105.001)</p><p>Android Security Update: 5 November 2022</p><p>Build Date: 2022-12-24</p><p>Build variant: user</p><p>Maintainer: QKIvan</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul><li><p>You can dirty flash from 13.0.4</p></li><li><p>FBEv1 Build,Use Unofficial OrangeFox</p></li><li><p>Flash Android 11 firmware before you flash rom</p></li><li><p>You can download ota package from 13.0.4(in Settings –&gt; System –&gt; System Update)</p></li></ul><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update simplified Chinese translation(MiParts)</p><h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><p>Move StatusBar Lyric to Statusbar Settings</p><p>Rebase our source</p><p>Drop Black Theme</p><p>Drop Pocket Mode</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4-HotFix_raphael-20221224-0940.zip/download">SourceForge.net</a></p><h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>]]></content>
     
@@ -33,7 +33,7 @@
     
     
     
-    <category term="Project-Telescopium,Rom Changelog" scheme="https://www.qkivan.ink/categories/Project-Telescopium-Rom-Changelog/"/>
+    <category term="Project-Telescopium" scheme="https://www.qkivan.ink/categories/Project-Telescopium/"/>
     
     
     <category term="Project-Telescopium" scheme="https://www.qkivan.ink/tags/Project-Telescopium/"/>
@@ -45,7 +45,7 @@
     <link href="https://www.qkivan.ink/page/e942e730.html"/>
     <id>https://www.qkivan.ink/page/e942e730.html</id>
     <published>2022-12-15T08:21:45.000Z</published>
-    <updated>2023-05-27T06:14:28.130Z</updated>
+    <updated>2023-05-27T06:29:09.013Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin"></a>Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</h1><p>Initial Project-Telescopium release based on Android 13</p><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)</p><p>Project-Telescopium Version: 13.0.4</p><p>Android Version:13(TD1A.221105.001)</p><p>Android Security Update: 5 November 2022</p><p>Build Date: 2022-12-15</p><p>Build variant: user</p><p>Maintainer: QKIvan</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul><li><p>Clean Flash</p></li><li><p>FBEv1 Build,Use Unofficial OrangeFox</p></li><li><p>Flash Android 11 firmware before you flash rom</p></li></ul><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update our prebuilt kernel(Use Wind+)</p><p>Improve paddings/margins</p><p>Update build fingerprint</p><p>Enable some stuffs</p><p>Use GcamGo</p><p>Linux Kernel 4.14.275</p><p>Fix up charging issue</p><p>Use miui captive portal<br>Set globally accessible NTP server<br>Improve face unlock for popup camera<br>Don’t warn user about FC in Google TTS</p><h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><p>Add Pocket Mode</p><p>Add Black Theme</p><p>Add Vibration patterns from OOS</p><p>Add Pulse and Ambient notification bars</p><p>Use MiSans as default fonts</p><p>Add Gamespace and reTicker</p><p>Add StatusBar Lyric</p><p>Add GamesProps for GameSpace</p><p>Add Strict Standby Policy</p><p>Add Data Switch QS Tile</p><p>Add Light QuickSettings</p><p>Fixed Camera</p><p>Make New QS Footer background translucent</p><p>Some Memory optimization from ProtonAOSP</p><p>Implement lockscreen quick unlock<br>Override name of Mainland China carriers</p><p>Add haptic feedback for qs tiles</p><p>And more…</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip/download">SourceForge.net</a></p><p><a href="https://cloud.qkivan.ink/Rom/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip">QKIvan’s Cloud</a></p><h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>]]></content>
     
@@ -57,7 +57,7 @@
     
     
     
-    <category term="Project-Telescopium,Rom Changelog" scheme="https://www.qkivan.ink/categories/Project-Telescopium-Rom-Changelog/"/>
+    <category term="Project-Telescopium" scheme="https://www.qkivan.ink/categories/Project-Telescopium/"/>
     
     
     <category term="Project-Telescopium" scheme="https://www.qkivan.ink/tags/Project-Telescopium/"/>
@@ -69,7 +69,7 @@
     <link href="https://www.qkivan.ink/page/f4f12157.html"/>
     <id>https://www.qkivan.ink/page/f4f12157.html</id>
     <published>2022-11-11T10:31:29.000Z</published>
-    <updated>2023-05-27T06:14:18.160Z</updated>
+    <updated>2023-05-27T06:29:03.482Z</updated>
     
     <content type="html"><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael/raphaelin"></a>PixelExperience Plus Update for raphael/raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11/11/‘22</p><p>Build Variant: user</p><p>By QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul><li>Update redfin fingerprint</li><li>Configure aux camera for Aperture</li><li>Improve face unlock for popup camera</li><li>Don’t warn user about FC in Google TTS</li><li>Enable Face Unlock</li><li>Enable Quick Tap</li><li>Use release-key</li></ul><h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul><li>Switch to Plus Edition</li><li>Add Statusbar Lyric</li><li>Add haptic feedback for qs tiles</li><li>Add NFC tile</li><li>Add Data Switch QS Tile</li><li>Add Light QS</li><li>Safetynet Passed Without Root</li><li>Export RecordingService for External Usage</li><li>Reset props for status bar lyric</li><li>Reduce screenshot dismiss delay to 3 seconds</li><li>Implement lockscreen quick unlock</li><li>Override name of Mainland China carriers</li></ul><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>]]></content>
     
@@ -81,7 +81,7 @@
     
     
     
-    <category term="PixelExperience," scheme="https://www.qkivan.ink/categories/PixelExperience/"/>
+    <category term="PixelExperience" scheme="https://www.qkivan.ink/categories/PixelExperience/"/>
     
     
     <category term="PixelExperience" scheme="https://www.qkivan.ink/tags/PixelExperience/"/>
@@ -93,7 +93,7 @@
     <link href="https://www.qkivan.ink/page/46f62f90.html"/>
     <id>https://www.qkivan.ink/page/46f62f90.html</id>
     <published>2022-11-05T17:53:17.000Z</published>
-    <updated>2023-05-27T06:14:26.573Z</updated>
+    <updated>2023-05-27T06:28:58.698Z</updated>
     
     <content type="html"><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael/raphaelin"></a>PixelExperience Unofficial Update for raphael/raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06/11/‘22</p><p>Build Variant: user</p><p>Android Version: 13</p><p>By QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul><li>Initial Build</li><li>October security patch</li><li>Kernel Upstream to 4.9.275</li><li>Import simplified Chinese translation in parts</li><li>Improve paddings/margins</li><li>Fixed PPS charging</li><li>Disable blur on app launch</li><li>Enable background blur</li><li>Use miui captive portal</li><li>Set globally accessible NTP server</li><li>Use Clang-Proton to build</li></ul><h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul><li>Add Statusbar Lyric</li><li>Add per-app volume</li><li>Add NFC qs tile</li><li>Add Light qs</li><li>Add lockscreen quick unlock.</li><li>Allow user to add/remove QS with one click</li><li>Use color accent for charging animation</li><li>Make New QS Footer background translucent</li></ul><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>]]></content>
     
@@ -105,8 +105,6 @@
     
     
     
-    <category term="PixelExperience,Rom Changelog" scheme="https://www.qkivan.ink/categories/PixelExperience-Rom-Changelog/"/>
-    
     
     <category term="PixelExperience" scheme="https://www.qkivan.ink/tags/PixelExperience/"/>
     
@@ -117,7 +115,7 @@
     <link href="https://www.qkivan.ink/page/46f62f90.html"/>
     <id>https://www.qkivan.ink/page/46f62f90.html</id>
     <published>2022-10-08T12:51:10.000Z</published>
-    <updated>2023-05-27T06:26:30.244Z</updated>
+    <updated>2023-05-27T06:29:21.492Z</updated>
     
     <content type="html"><![CDATA[<h1 id="xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin"><a href="#xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin" class="headerlink" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin"></a>xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Released: 08/10/‘22</p><p>Build Variant: user</p><p>Android Version: 13</p><p>By @QKIvan</p><h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Source-changelog"><a href="#Source-changelog" class="headerlink" title="Source changelog:"></a>Source changelog:</h3><p><a href="https://t.me/xdroid_news/359">@xdroid_news</a></p><p>Device changelog:</p><p>Initial Build</p><p>Use Proton-Clang</p><p>Improve paddings</p><p>Import simplified Chinese translation</p><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes:"></a>Notes:</h2><p>• FBEv1 Build<br>• Make a NAND Backup.<br>• Screen Off FOD doesn’t work<br>• OSS Vendor and Arrow Kernel<br>• Use Android 11 Firmware and OrangeFox Unofficial(FBEv1)</p><h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://sourceforge.net/projects/qkivanrom/files/raphael/Android13/xdroid/INA.XD.13.0.r8-350810-raphael.REL.zip/download">SourceForge.net</a></p>]]></content>
     
@@ -129,7 +127,7 @@
     
     
     
-    <category term="xdroidOSS,Rom Changelog" scheme="https://www.qkivan.ink/categories/xdroidOSS-Rom-Changelog/"/>
+    <category term="xdroidOSS" scheme="https://www.qkivan.ink/categories/xdroidOSS/"/>
     
     
     <category term="xdroidOSS" scheme="https://www.qkivan.ink/tags/xdroidOSS/"/>
@@ -205,7 +203,7 @@
     <link href="https://www.qkivan.ink/page/ada3.html"/>
     <id>https://www.qkivan.ink/page/ada3.html</id>
     <published>2021-03-19T13:27:22.000Z</published>
-    <updated>2023-05-27T06:26:14.602Z</updated>
+    <updated>2023-05-27T06:29:43.804Z</updated>
     
     <content type="html"><![CDATA[<h1 id="可能是最全的玩客云刷机教程-amp-我遇到的坑"><a href="#可能是最全的玩客云刷机教程-amp-我遇到的坑" class="headerlink" title="可能是最全的玩客云刷机教程&amp;我遇到的坑"></a>可能是最全的玩客云刷机教程&amp;我遇到的坑</h1><p>提示：刷机有风险，操作需谨慎。</p><p>前段时间闲来无事刷到了玩客云的视频，就去闲鱼买了个。价格42（记得那个视频里面很多人30在出，我买的时候涨到40多了，现在60不包邮了…这还不如买N1和我家云了）。</p><p>2023-5-27：现在看起来很便宜，但是考虑到玩客云的Soc…还是建议上别的机子</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/mDax4FSbERsdcJQ.png" alt="购买凭证"></p><span id="more"></span><p>实测裸机待机功耗在1.5w左右，建议40以下入手。</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><table><thead><tr><th align="left">需要的工具</th><th>作用</th></tr></thead><tbody><tr><td align="left">镊子</td><td>拿来短接</td></tr><tr><td align="left">USB_Burning_Tool</td><td>刷入Firmware</td></tr><tr><td align="left">USB-Write/USB image Tool</td><td>刷写Armbian到U盘的工具</td></tr><tr><td align="left">Armbian</td><td>玩客云的系统</td></tr><tr><td align="left">U盘</td><td>None</td></tr><tr><td align="left">PuTTY</td><td>使用ssh链接玩客云</td></tr><tr><td align="left">一个铁片/撬棒</td><td>拆机</td></tr><tr><td align="left">USB公对公数据线</td><td>传输Firmware</td></tr></tbody></table><h2 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h2><p>把铁片捅到sd卡槽的缝隙里，就可以取下I/O装饰板，拧下螺丝，就可以取下主板（主板有四个铁钩，固定主板的，捅一下即可，这个铁钩断了也没事，反正不影响使用）</p><p>然后看SD卡槽处有无V1.3的丝印，有的话就是新版本的板子，没有的话就是老版本的板子</p><p>然后再安装USB_Burning_Tool，然后把USB公对公的数据线一头插在靠近HDMI接口的USB接口，然后再把另一头插在电脑的USB接口上，找到菜单，文件-导入烧录包-选择s805_flash_snail.img。</p><p><img src="http://ivanstar.gitee.io/photo" alt="导入烧录包后"></p><p>拿出你的镊子，短接主板的短接点（具体看下图，第一张图为老版短接点，第二张图为新版短接点），然后再接上电源，这里注意<code>插电源的时候也要短接，镊子不能松！！！！！</code></p><p>（建议在短接之前把电源给玩客云插上，然后把插头断开，短接的时候一只手短接，一只手去插插头，如果你有那种有开关的排插的话，那就先把玩客云的插头接上去，不开开关，到时候再按按钮打开排插）</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/PayQwCqOZ82EVxd.jpg" alt="老版本"></p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/4cHQo2fhuLM3iV5.jpg" alt="新版本"></p><p>然后玩客云就会进入刷机模式，USB_Burning_Tool会自动刷入Firmware，以后刷机就不需要拆开短接刷机了。</p><p>这里提一下，如果USB_Burning_Tool卡住刷机失败，可以尝试：</p><ul><li><p>快速插拔USB公对公线</p></li><li><p>更换USB接口</p></li><li><p>台式机的话可以试试电脑后置的usb接口</p></li><li><p>可以把线插到USB2.0的接口  </p></li><li><p>换台电脑</p><p>![RB9ZQ7`AWF4_B4_4J6UYE_J.png](<a href="http://ivanstar.gitee.io/photo/wky-sj/jPIW7cXnKwVtAqs.png">http://ivanstar.gitee.io/photo/wky-sj/jPIW7cXnKwVtAqs.png</a>)</p><p>刷完后如上图所示，如果你尝试了各种方法还是无法刷机的话，那就是的玩客云的eMMC可能有坏块，建议刷入精简版底包试试（链接放在文末）</p></li></ul><p>然后，将你的U盘接上电脑，打开Usb Image Tool<img src="http://ivanstar.gitee.io/photo/wky-sj/MozHwXlkSemRJv3.png" alt="Restore.png"></p><p>选中你的U盘，点击Restore，<img src="http://ivanstar.gitee.io/photo/wky-sj/6Bhq5GMKS8ZLVtp.png" alt="knwo.png"></p><p>选择镜像，软件就会自动将镜像写入U盘。</p><p>当进度条到达100％后，关掉软件，拔下U盘，把U盘插到玩客云上，插网线，插电源，过一会玩客云的IP就会出现在路由器的管理页面</p><p>下面是水星路由器，玩客云的IP会直接显示</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/eAiZUWVa2PsnuHD.png" alt="melogin.png"></p><p>如果你的路由器是梅林固件，点客户端状态就能看到</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/merlin.png" alt="merlin.png"></p><p>访问这个IP</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/MmsxiaFQwDRZOf1.png" alt="dh.png"></p><p>你就可以看到玩客云导航，然后我们就可以把玩客云的系统刷入内置的eMMC了。</p><p>打开Putty，在Host Name那里填入玩客云的ip，我们就能通过SSH连接玩客云<img src="http://ivanstar.gitee.io/photo/wky-sj/mf7KHBSlXUOFGMs.png" alt="putty.png"></p><p>填写完IP后点击Open，后面会弹出一个对话框，选择是</p><p>账号：root</p><p>密码：powersee233</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/9Euv1XDGZiwP6jC.png" alt="_J_25H_3CI_Q_4M_176_4ZD.png"></p><p>输入./install.sh即可把系统刷入玩客云内置的eMMC，刷入完成后会掉线重启，此时拔下U盘即可。</p><p><img src="http://ivanstar.gitee.io/photo/wky-sj/7kQXERyoaF8iYuP.png" alt="O_ES_QX~B_ZF__95_P0JD_9.png"></p><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p>powersee的视频：<a href="https://www.bilibili.com/video/BV1sU4y1s7Yu">你的需求，也许30块就能搞定【Powersee】_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a></p><p>powersee的一个疑难杂症大汇合，有需要可以看看：<a href="https://www.bilibili.com/video/BV1kT4y1P7RL">【玩客云】疑难杂症大汇合（持续更新）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a></p><p>工具下载地址： <a href="https://pan.baidu.com/s/1q-19-fBEKSfPnOVyVXiU0w">https://pan.baidu.com/s/1q-19-fBEKSfPnOVyVXiU0w</a> 提取码: n96y</p><p>玩客云应用的密码：</p><p>Portainer：账户：admin，密码powersee</p><p>aria2：rpc密钥默认12345</p><p>qB：账户admin，密码adminadmin</p><p>filebrowser: 账户admin，密码admin</p><p>SMB：账户root，密码1234</p><p>SFTP：账户root，密码powersee233</p><p>transmission：账号admin，密码admin（默认停用，要去Portainer里面启用）</p>]]></content>
     

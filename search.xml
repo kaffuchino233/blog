@@ -32,8 +32,44 @@
 </ul>
 <h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
 ]]></content>
+      <tags>
+        <tag>PixelExperience</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PixelExperience Plus Update for raphael/raphaelin</title>
+    <url>/page/f4f12157.html</url>
+    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael/raphaelin"></a>PixelExperience Plus Update for raphael/raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11/11/‘22</p>
+<p>Build Variant: user</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Update redfin fingerprint</li>
+<li>Configure aux camera for Aperture</li>
+<li>Improve face unlock for popup camera</li>
+<li>Don’t warn user about FC in Google TTS</li>
+<li>Enable Face Unlock</li>
+<li>Enable Quick Tap</li>
+<li>Use release-key</li>
+</ul>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
+<li>Switch to Plus Edition</li>
+<li>Add Statusbar Lyric</li>
+<li>Add haptic feedback for qs tiles</li>
+<li>Add NFC tile</li>
+<li>Add Data Switch QS Tile</li>
+<li>Add Light QS</li>
+<li>Safetynet Passed Without Root</li>
+<li>Export RecordingService for External Usage</li>
+<li>Reset props for status bar lyric</li>
+<li>Reduce screenshot dismiss delay to 3 seconds</li>
+<li>Implement lockscreen quick unlock</li>
+<li>Override name of Mainland China carriers</li>
+</ul>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+]]></content>
       <categories>
-        <category>PixelExperience,Rom Changelog</category>
+        <category>PixelExperience</category>
       </categories>
       <tags>
         <tag>PixelExperience</tag>
@@ -88,49 +124,10 @@
 <h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
 ]]></content>
       <categories>
-        <category>Project-Telescopium,Rom Changelog</category>
+        <category>Project-Telescopium</category>
       </categories>
       <tags>
         <tag>Project-Telescopium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PixelExperience Plus Update for raphael/raphaelin</title>
-    <url>/page/f4f12157.html</url>
-    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael/raphaelin"></a>PixelExperience Plus Update for raphael/raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11/11/‘22</p>
-<p>Build Variant: user</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Update redfin fingerprint</li>
-<li>Configure aux camera for Aperture</li>
-<li>Improve face unlock for popup camera</li>
-<li>Don’t warn user about FC in Google TTS</li>
-<li>Enable Face Unlock</li>
-<li>Enable Quick Tap</li>
-<li>Use release-key</li>
-</ul>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
-<li>Switch to Plus Edition</li>
-<li>Add Statusbar Lyric</li>
-<li>Add haptic feedback for qs tiles</li>
-<li>Add NFC tile</li>
-<li>Add Data Switch QS Tile</li>
-<li>Add Light QS</li>
-<li>Safetynet Passed Without Root</li>
-<li>Export RecordingService for External Usage</li>
-<li>Reset props for status bar lyric</li>
-<li>Reduce screenshot dismiss delay to 3 seconds</li>
-<li>Implement lockscreen quick unlock</li>
-<li>Override name of Mainland China carriers</li>
-</ul>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <categories>
-        <category>PixelExperience,</category>
-      </categories>
-      <tags>
-        <tag>PixelExperience</tag>
       </tags>
   </entry>
   <entry>
@@ -163,7 +160,7 @@
 <h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
 ]]></content>
       <categories>
-        <category>Project-Telescopium,Rom Changelog</category>
+        <category>Project-Telescopium</category>
       </categories>
       <tags>
         <tag>Project-Telescopium</tag>
@@ -186,7 +183,7 @@
 <h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://sourceforge.net/projects/qkivanrom/files/raphael/Android13/xdroid/INA.XD.13.0.r8-350810-raphael.REL.zip/download">SourceForge.net</a></p>
 ]]></content>
       <categories>
-        <category>xdroidOSS,Rom Changelog</category>
+        <category>xdroidOSS</category>
       </categories>
       <tags>
         <tag>xdroidOSS</tag>
@@ -304,6 +301,59 @@
       </tags>
   </entry>
   <entry>
+    <title>玩客云安装Cloudreve并设置开机自启</title>
+    <url>/page/bc20.html</url>
+    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
+
+<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
+<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
+<p>执行./cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
+<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
+<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到/mnt/wd这个目录，那这里就填/mnt/wd，以此类推，剩下的可以不管，保存即可。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
+<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接/快捷方式到这里写你的硬盘挂载的位置。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
+<p>找到用户组，设置管理员的容量。</p>
+<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
+<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>然后按esc，再输入:wq，就可以保存。</p>
+<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>长达6天的Havoc 4.12使用体验</title>
     <url>/page/c9f2.html</url>
     <content><![CDATA[<p>2023-5-27：陈年老文，一些观点与我现在的不同，仅供参考。</p>
@@ -337,59 +387,6 @@
       </categories>
       <tags>
         <tag>Havoc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
-]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装Cloudreve并设置开机自启</title>
-    <url>/page/bc20.html</url>
-    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
-
-<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
-<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
-<p>执行./cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
-<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
-<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到/mnt/wd这个目录，那这里就填/mnt/wd，以此类推，剩下的可以不管，保存即可。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
-<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接/快捷方式到这里写你的硬盘挂载的位置。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
-<p>找到用户组，设置管理员的容量。</p>
-<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
-<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
-
-<p>然后按esc，再输入:wq，就可以保存。</p>
-<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
       </tags>
   </entry>
 </search>
