@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.qkivan.ink/about/index.html</loc>
+    <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
     
     <lastmod>2023-05-20</lastmod>
     
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
+    <loc>https://www.qkivan.ink/about/index.html</loc>
     
     <lastmod>2023-05-20</lastmod>
     
@@ -109,7 +109,7 @@
 
   <url>
     <loc>https://www.qkivan.ink/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -117,35 +117,35 @@
   
   <url>
     <loc>https://www.qkivan.ink/tags/PixelExperience/</loc>
-    <lastmod>2023-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/tags/Project-Telescopium/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/xdroidOSS/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/tags/Project-Telescopium/</loc>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/AOSP/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -154,35 +154,35 @@
   
   <url>
     <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
-    <lastmod>2023-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/categories/Project-Telescopium/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/xdroidOSS/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/categories/Project-Telescopium/</loc>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/ROM%E4%BD%93%E9%AA%8C/</loc>
-    <lastmod>2023-05-20</lastmod>
+    <lastmod>2023-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -1,7 +1,325 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>青空の小站</title><meta name="author" content="QKIvan"><meta name="copyright" content="QKIvan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="青空の小站">
+<meta property="og:url" content="https://www.qkivan.ink/index.html">
+<meta property="og:site_name" content="青空の小站">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.qkivan.ink/img/avatar.jpg">
+<meta property="article:author" content="QKIvan">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.qkivan.ink/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.qkivan.ink/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '青空の小站',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-05-27 11:55:11'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  include ./includes/mixins/post-ui.pug
-  #recent-posts.recent-posts
-    +postUI
-    include includes/pagination.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="青空の小站" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="青空の小站"><span class="site-name">青空の小站</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">青空の小站</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelinA Hotfix version for raphael/raphaelin.
+Build InfoDevice: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)
+Project-Telescopium Version: 13.0.4-HotFix
+Android Version:13(TD1A.221105.001)
+Android Security Update: 5 November 2022
+Build Date: 2022-12-24
+Build variant: user
+Maintainer: QKIvan
+Notes
+You can dirty flash from 13.0.4
+
+FBEv1 Build,Use Unofficial OrangeFox
+
+Flash Android 11 firmware before you flash rom
+
+You can download ota  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4 Community Build For raphael/raphaelinInitial Project-Telescopium release based on Android 13
+Build InfoDevice: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)
+Project-Telescopium Version: 13.0.4
+Android Version:13(TD1A.221105.001)
+Android Security Update: 5 November 2022
+Build Date: 2022-12-15
+Build variant: user
+Maintainer: QKIvan
+Notes
+Clean Flash
+
+FBEv1 Build,Use Unofficial OrangeFox
+
+Flash Android 11 firmware before you flash rom
+
+
+ChangelogDeviceUpdate our prebuilt ker ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PixelExperience/">PixelExperience</a></span></div><div class="content">PixelExperience Plus Update for raphael/raphaelinBuild InfoUpdated: 11/11/‘22
+Build Variant: user
+By QKIvan
+ChangelogDevice
+Update redfin fingerprint
+Configure aux camera for Aperture
+Improve face unlock for popup camera
+Don’t warn user about FC in Google TTS
+Enable Face Unlock
+Enable Quick Tap
+Use release-key
+
+Source
+Switch to Plus Edition
+Add Statusbar Lyric
+Add haptic feedback for qs tiles
+Add NFC tile
+Add Data Switch QS Tile
+Add Light QS
+Safetynet Passed Without Root
+Export RecordingService  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-05T17:53:17.000Z" title="发表于 2022-11-06 01:53:17">2022-11-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PixelExperience/">PixelExperience</a></span></div><div class="content">PixelExperience Unofficial Update for raphael/raphaelinBuild InfoUpdated: 06/11/‘22
+Build Variant: user
+Android Version: 13
+By QKIvan
+ChangelogDevice
+Initial Build
+October security patch
+Kernel Upstream to 4.9.275
+Import simplified Chinese translation in parts
+Improve paddings/margins
+Fixed PPS charging
+Disable blur on app launch
+Enable background blur
+Use miui captive portal
+Set globally accessible NTP server
+Use Clang-Proton to build
+
+Rom
+Add Statusbar Lyric
+Add per-app volume
+Add NFC qs tile
+ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-08T12:51:10.000Z" title="发表于 2022-10-08 20:51:10">2022-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/xdroidOSS/">xdroidOSS</a></span></div><div class="content">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelinBuild InfoReleased: 08/10/‘22
+Build Variant: user
+Android Version: 13
+By @QKIvan
+ChangelogSource changelog:@xdroid_news
+Device changelog:
+Initial Build
+Use Proton-Clang
+Improve paddings
+Import simplified Chinese translation
+Notes:• FBEv1 Build• Make a NAND Backup.• Screen Off FOD doesn’t work• OSS Vendor and Arrow Kernel• Use Android 11 Firmware and OrangeFox Unofficial(FBEv1)
+DownloadSourceForge.net
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/c9f2.html" title="长达6天的Havoc 4.12使用体验">长达6天的Havoc 4.12使用体验</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-13T12:51:10.000Z" title="发表于 2022-02-13 20:51:10">2022-02-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ROM%E4%BD%93%E9%AA%8C/">ROM体验</a></span></div><div class="content">前言：这篇文章是我用Mark Text写的第一篇文章（Typora收费了），bug有点小多，有机会试Milkdown。
+这恰好是我来酷安发的第二篇图文，写的不够好的地方欢迎评论指出。
+简历：此版本为unofficial，维护者为Shreyas，版本是4.12，默认不带Gapps，需要Gapps可自行刷入OpenGapps。
+Bug：无
+
+
+
+（SELinux宽容是因为Uperf的原因，目前已经弃用转为使用别的调度）
+缺点这里先写缺点，把无法接受的先劝退，避免出现看了大半天文章结果在结尾发现自己不能接受的地方。
+无OTA无OTA，意味着每次更新都要去recovery里面手动刷，我能忍，问题不大。
+启动器掉帧自带的是Shady launcher，原本以为还挺好用，直到我再次解锁手机，掉帧掉到离谱，评论区也有同样刷了此rom的酷友反馈此问题，并不是个例，这里我直接换lawnchair了。
+部分类原生也有同样的问题，例如crDroid。
+无面部解锁这点可能有的人接受不了，我倒还好（毕竟Mix2的摄像头也挺容易被挡的），不能接受的还是绕道吧。
+
+汉化不全放张图，自己感受下
+
+我觉得无伤大雅。
+自 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/bc20.html" title="玩客云安装Cloudreve并设置开机自启">玩客云安装Cloudreve并设置开机自启</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-11T03:19:32.000Z" title="发表于 2021-04-11 11:19:32">2021-04-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/">玩客云</a></span></div><div class="content">玩客云安装Cloudreve并设置开机自启Cloudreve是一个轻量化的网盘系统，用在玩客云上就特别合适，由于玩客云安装Cloudreve的坑还是很多的，自己去网上百度信息也比较零散，今天就写一篇集合。
+
+
+安装Cloudreve先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图
+
+把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，
+
+然后cd /你放cloudreve的文件夹，执行./cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开玩客云的IP:5212，例如我的玩客云的ip为192.168.1.5（你们的会不一样），那我访问1921.168.1.5:5212就可以进入cloudreve的管理页面。
+配置输入刚刚的账号密码登录，点击右上角的那个小人头像，再弹出来的菜单里选择管理面板。
+
+进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2366.html" title="玩客云安装宝塔5.9">玩客云安装宝塔5.9</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-02T12:13:40.000Z" title="发表于 2021-04-02 20:13:40">2021-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/">玩客云</a></span></div><div class="content">玩客云安装宝塔5.9开始安装
+
+通过SSH登录服务器，输入
+1wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
+
+如果你是第一次安装，会报Pillow installation failed
+解决方法：sudo apt-get install python-setuptools
+然后再安装，你就能安装成功了~
+相关链接Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法_Ubuntu_服务器之家 (zzvips.com)
+Ubuntu18 安装宝塔面板出错 提示Pillow installation failed的解决办法 - 奇维云 (kiver.cn)
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/ada3.html" title="可能是最全的玩客云刷机教程&amp;我遇到的坑">可能是最全的玩客云刷机教程&amp;我遇到的坑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-03-19T13:27:22.000Z" title="发表于 2021-03-19 21:27:22">2021-03-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/">玩客云</a></span></div><div class="content">可能是最全的玩客云刷机教程&amp;我遇到的坑提示：刷机有风险，操作需谨慎！！！！！！！！！！出问题不负责
+前段时间闲来无事刷到了玩客云的视频，就去闲鱼买了个。价格42（记得那个视频里面很多人30在出，我买的时候涨到40多了，现在60不包邮了…这还不如买N1和我家云了）。
+
+你可以刷armbian，里面一直内置docker（但是大部分docker镜像都用不了）和一些下载工具，docker里面自带了typecho，可以写博客，内网穿透之后就可以直接当博客服务器了。
+
+
+这个东西的待机功耗也不高，实测裸机大概1.5w左右，所以不用过度担心电费，顺带说一下，玩客云50以下入手都还是挺好的，贵了就看看别的吧。
+准备
+
+
+需要的工具
+作用
+获取方法
+
+
+
+镊子
+短接短接点
+街边随便买一个
+
+
+USB_Burning_Tool
+刷入底层包
+文章最后会有下载链接
+
+
+USB-Write/USB image Tool
+将镜像包刷入到U盘里，这两个工具随便用一个，教程用USB image tool
+文章最后会有下载链接
+
+
+armbian镜像包
+玩客云的系统
+文章最后会有下载链接
+
+
+U盘（8G及以上， ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">QKIvan</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><time datetime="2022-11-05T17:53:17.000Z" title="发表于 2022-11-06 01:53:17">2022-11-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><time datetime="2022-10-08T12:51:10.000Z" title="发表于 2022-10-08 20:51:10">2022-10-08</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PixelExperience/"><span class="card-category-list-name">PixelExperience</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Project-Telescopium/"><span class="card-category-list-name">Project-Telescopium</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ROM%E4%BD%93%E9%AA%8C/"><span class="card-category-list-name">ROM体验</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/xdroidOSS/"><span class="card-category-list-name">xdroidOSS</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%8E%A9%E5%AE%A2%E4%BA%91/"><span class="card-category-list-name">玩客云</span><span class="card-category-list-count">3</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/" style="font-size: 1.5em; color: #99a9bf">玩客云</a> <a href="/tags/Project-Telescopium/" style="font-size: 1.3em; color: #99a1ac">Project-Telescopium</a> <a href="/tags/PixelExperience/" style="font-size: 1.3em; color: #99a1ac">PixelExperience</a> <a href="/tags/xdroidOSS/" style="font-size: 1.1em; color: #999">xdroidOSS</a> <a href="/tags/AOSP/" style="font-size: 1.1em; color: #999">AOSP</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-05-27T03:55:11.580Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By QKIvan</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
