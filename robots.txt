@@ -4,5 +4,5 @@ Disallow: /vendors/
 Disallow: /categories/
 
 
-Sitemap: https://www.bluemap.cc/sitemap.xml
-Sitemap: https://www.bluemap.cc/baidusitemap.xml
+Sitemap: https://www.qkivan.ink/sitemap.xml
+Sitemap: https://www.qkivan.ink/baidusitemap.xml
