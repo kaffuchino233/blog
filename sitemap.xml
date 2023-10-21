@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qkivan.ink/page/0.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/24ad4c47.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/about/index.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qkivan.ink/page/ada3.html</loc>
     
     <lastmod>2023-05-27</lastmod>
@@ -47,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/page/46f62f90.html</loc>
-    
-    <lastmod>2023-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.qkivan.ink/page/bc20.html</loc>
     
     <lastmod>2023-05-27</lastmod>
@@ -77,15 +104,6 @@
     <loc>https://www.qkivan.ink/page/c9f2.html</loc>
     
     <lastmod>2023-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/about/index.html</loc>
-    
-    <lastmod>2023-05-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,43 +148,50 @@
 
   <url>
     <loc>https://www.qkivan.ink/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://www.qkivan.ink/tags/Null-Android/</loc>
+    <lastmod>2023-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qkivan.ink/tags/PixelExperience/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/Project-Telescopium/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/xdroidOSS/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/tags/Havoc/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -175,35 +200,35 @@
   
   <url>
     <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/Project-Telescopium/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/xdroidOSS/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/%E7%9F%BF%E6%B8%A3/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/Havoc/</loc>
-    <lastmod>2023-06-03</lastmod>
+    <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

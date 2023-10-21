@@ -6,14 +6,7 @@
 <meta property="og:image" content="https://www.qkivan.ink/img/avatar.jpg">
 <meta property="article:author" content="QKIvan">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.qkivan.ink/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.qkivan.ink/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="763c894ed84bb0eabf4a5e5ecbfe04ec"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?763c894ed84bb0eabf4a5e5ecbfe04ec";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-YFGKRK6W24"></script><script>window.dataLayer = window.dataLayer || [];
+<meta name="twitter:image" content="https://www.qkivan.ink/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.qkivan.ink/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="763c894ed84bb0eabf4a5e5ecbfe04ec"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-YFGKRK6W24"></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YFGKRK6W24');
@@ -44,11 +37,9 @@ gtag('config', 'G-YFGKRK6W24');
   copyright: undefined,
   lightbox: 'fancybox',
   Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
-    }
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
   islazyload: false,
@@ -64,85 +55,78 @@ gtag('config', 'G-YFGKRK6W24');
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-06-03 08:21:04'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
+  postUpdate: '2023-10-21 21:42:40'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
         }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
         }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
 
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
         }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
-      win.activateLightMode = function () {
+      win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
@@ -150,9 +134,9 @@ gtag('config', 'G-YFGKRK6W24');
       }
       const t = saveToLocal.get('theme')
     
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -162,15 +146,33 @@ gtag('config', 'G-YFGKRK6W24');
         }
       }
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
       }
-    }
-    detectApple()
+      detectApple()
     })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="QKIvanの 喵喵窝" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 杂项</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://pic1.imgdb.cn/item/647197d0f024cca173cd8f51.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="QKIvanの 喵喵窝"><span class="site-name">QKIvanの 喵喵窝</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 杂项</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">QKIvanの 喵喵窝</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelinA Hotfix version for raphael/raphaelin.
-Build InfoDevice: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 杂项</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="QKIvanの 喵喵窝"><span class="site-name">QKIvanの 喵喵窝</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 杂项</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">QKIvanの 喵喵窝</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/0.html" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-21T13:15:08.666Z" title="发表于 2023-10-21 21:15:08">2023-10-21</time></span></div><div class="content">Shell&#x2F;Tools&#x2F;Commits BackupAOSP Build EnvironmentFor Debian 12
+sudo apt install repo git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync
+For Ubuntu 20.04
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev l ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/24ad4c47.html" title="Project Null/Null-Android For OnePlus SM8250 Devices(opkona)">Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-03T13:57:12.000Z" title="发表于 2023-07-03 21:57:12">2023-07-03</time></span></div><div class="content">Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)Build infoAndroid Version: 13
+Build Date: 2023-07-03
+Build variant: userdebug
+Device: OnePlus SM8250 Devices(opkona)
+Project Null Version: SNAPSHOT
+Project Null Branch: 13.1-BETA
+Maintainer: QKIvan
+Notes
+Based on OSS13 Firmware
+ext4 build
+Disabled CLO Boost
+Stellaris Kernel
+
+ChangelogIntial Build
+DownloadSourceForge
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelinA Hotfix version for raphael&#x2F;raphaelin.
+Build InfoDevice: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)
 Project-Telescopium Version: 13.0.4-HotFix
 Android Version:13(TD1A.221105.001)
 Android Security Update: 5 November 2022
@@ -184,8 +186,8 @@ FBEv1 Build,Use Unofficial OrangeFox
 
 Flash Android 11 firmware before you flash rom
 
-You can download ota  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4 Community Build For raphael/raphaelinInitial Project-Telescopium release based on Android 13
-Build InfoDevice: Redmi K20 Pro/Mi 9T Pro(raphael/raphaelin)
+Y ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Telescopium/">Project-Telescopium</a></span></div><div class="content">Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelinInitial Project-Telescopium release based on Android 13
+Build InfoDevice: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)
 Project-Telescopium Version: 13.0.4
 Android Version:13(TD1A.221105.001)
 Android Security Update: 5 November 2022
@@ -200,7 +202,7 @@ FBEv1 Build,Use Unofficial OrangeFox
 Flash Android 11 firmware before you flash rom
 
 
-ChangelogDeviceUpdate our prebuilt ker ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PixelExperience/">PixelExperience</a></span></div><div class="content">PixelExperience Plus Update for raphael/raphaelinBuild InfoUpdated: 11/11/‘22
+ChangelogDeviceUpdate o ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/PixelExperience/">PixelExperience</a></span></div><div class="content">PixelExperience Plus Update for raphael&#x2F;raphaelinBuild InfoUpdated: 11&#x2F;11&#x2F;‘22
 Build Variant: user
 By QKIvan
 ChangelogDevice
@@ -220,7 +222,7 @@ Add NFC tile
 Add Data Switch QS Tile
 Add Light QS
 Safetynet Passed Without Root
-Export RecordingService  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-05T17:53:17.000Z" title="发表于 2022-11-06 01:53:17">2022-11-06</time></span></div><div class="content">PixelExperience Unofficial Update for raphael/raphaelinBuild InfoUpdated: 06/11/‘22
+Export Re ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="PixelExperience Unofficial Update for raphael/raphaelin">PixelExperience Unofficial Update for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-05T17:53:17.000Z" title="发表于 2022-11-06 01:53:17">2022-11-06</time></span></div><div class="content">PixelExperience Unofficial Update for raphael&#x2F;raphaelinBuild InfoUpdated: 06&#x2F;11&#x2F;‘22
 Build Variant: user
 Android Version: 13
 By QKIvan
@@ -229,7 +231,7 @@ Initial Build
 October security patch
 Kernel Upstream to 4.9.275
 Import simplified Chinese translation in parts
-Improve paddings/margins
+Improve paddings&#x2F;margins
 Fixed PPS charging
 Disable blur on app launch
 Enable background blur
@@ -239,9 +241,7 @@ Use Clang-Proton to build
 
 Rom
 Add Statusbar Lyric
-Add per-app volume
-Add NFC qs tile
- ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-08T12:51:10.000Z" title="发表于 2022-10-08 20:51:10">2022-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/xdroidOSS/">xdroidOSS</a></span></div><div class="content">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelinBuild InfoReleased: 08/10/‘22
+Add per-app vol ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-08T12:51:10.000Z" title="发表于 2022-10-08 20:51:10">2022-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/xdroidOSS/">xdroidOSS</a></span></div><div class="content">xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelinBuild InfoReleased: 08&#x2F;10&#x2F;‘22
 Build Variant: user
 Android Version: 13
 By @QKIvan
@@ -283,14 +283,12 @@ DownloadSourceForge.net
 安装Cloudreve先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图
 
 把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，
-执行./cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。
+执行.&#x2F;cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。
 Cloudreve配置输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。
 
-进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到/mnt/wd这个目录，那这里就填/mnt/wd，以此类推，剩下的可以不管，保存即可。
+进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到&#x2F;mnt&#x2F;wd这个目录，那这里就填&#x2F;mnt&#x2F;wd，以此类推，剩下的可以不管，保存即可。
 
-如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接/快捷方式到这里写你的硬盘挂载的位置。
-
-找 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2366.html" title="玩客云安装BT Panel">玩客云安装BT Panel</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-02T12:13:40.000Z" title="发表于 2021-04-02 20:13:40">2021-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%9F%BF%E6%B8%A3/">矿渣</a></span></div><div class="content">玩客云安装宝塔5.9开始安装
+如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/2366.html" title="玩客云安装BT Panel">玩客云安装BT Panel</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-02T12:13:40.000Z" title="发表于 2021-04-02 20:13:40">2021-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%9F%BF%E6%B8%A3/">矿渣</a></span></div><div class="content">玩客云安装宝塔5.9开始安装
 
 输入：
 1sudo apt-get install python-setuptools
@@ -298,62 +296,14 @@ Cloudreve配置输入刚刚的账号密码登录，在弹出来的菜单里选�
 再执行：
 1wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
 安装宝塔
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/page/ada3.html" title="可能是最全的玩客云刷机教程&amp;我遇到的坑">可能是最全的玩客云刷机教程&amp;我遇到的坑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-03-19T13:27:22.000Z" title="发表于 2021-03-19 21:27:22">2021-03-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%9F%BF%E6%B8%A3/">矿渣</a></span></div><div class="content">可能是最全的玩客云刷机教程&amp;我遇到的坑提示：刷机有风险，操作需谨慎。
-前段时间闲来无事刷到了玩客云的视频，就去闲鱼买了个。价格42（记得那个视频里面很多人30在出，我买的时候涨到40多了，现在60不包邮了…这还不如买N1和我家云了）。
-2023-5-27：现在看起来很便宜，但是考虑到玩客云的Soc…还是建议上别的机子
-
-
-
-实测裸机待机功耗在1.5w左右，建议40以下入手。
-准备
-
-
-需要的工具
-作用
-
-
-
-镊子
-拿来短接
-
-
-USB_Burning_Tool
-刷入Firmware
-
-
-USB-Write/USB image Tool
-刷写Armbian到U盘的工具
-
-
-Armbian
-玩客云的系统
-
-
-U盘
-None
-
-
-PuTTY
-使用ssh链接玩客云
-
-
-一个铁片/撬棒
-拆机
-
-
-USB公对公数据线
-传输Firmware
-
-
-Start把铁片捅到sd卡槽的缝隙里，就可以取下I/O装饰板，拧下螺丝，就可以取下主板（主板有四个铁钩，固定主板的，捅一下即可，这个铁钩断了也没事，反正不影响使用）
-然后看SD卡槽处有无V1.3的丝印，有的话就是新版本的板子，没有的话就是老版本的板子 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">QKIvan</div><div class="author-info__description">喜欢有趣的事物</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" href="https://www.qkivan.ink/"><i class="fab fa-home"></i><span>主页</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><time datetime="2022-11-05T17:53:17.000Z" title="发表于 2022-11-06 01:53:17">2022-11-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/46f62f90.html" title="xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin">xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</a><time datetime="2022-10-08T12:51:10.000Z" title="发表于 2022-10-08 20:51:10">2022-10-08</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">QKIvan</div><div class="author-info__description">喜欢有趣的事物</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" href="https://www.qkivan.ink/"><i class="fab fa-home"></i><span>主页</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/QKIvan" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:chingsky@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/0.html" title="无题">无题</a><time datetime="2023-10-21T13:15:08.666Z" title="发表于 2023-10-21 21:15:08">2023-10-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/24ad4c47.html" title="Project Null/Null-Android For OnePlus SM8250 Devices(opkona)">Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</a><time datetime="2023-07-03T13:57:12.000Z" title="发表于 2023-07-03 21:57:12">2023-07-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/2827472a.html" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin">Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</a><time datetime="2022-12-24T18:10:56.000Z" title="发表于 2022-12-25 02:10:56">2022-12-25</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/e942e730.html" title="Project-Telescopium 13.0.4 Community Build For raphael/raphaelin">Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</a><time datetime="2022-12-15T08:21:45.000Z" title="发表于 2022-12-15 16:21:45">2022-12-15</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/page/f4f12157.html" title="PixelExperience Plus Update for raphael/raphaelin">PixelExperience Plus Update for raphael/raphaelin</a><time datetime="2022-11-11T10:31:29.000Z" title="发表于 2022-11-11 18:31:29">2022-11-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Havoc/"><span class="card-category-list-name">Havoc</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/PixelExperience/"><span class="card-category-list-name">PixelExperience</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Project-Telescopium/"><span class="card-category-list-name">Project-Telescopium</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/xdroidOSS/"><span class="card-category-list-name">xdroidOSS</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%9F%BF%E6%B8%A3/"><span class="card-category-list-name">矿渣</span><span class="card-category-list-count">3</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/PixelExperience/" style="font-size: 1.3em; color: #99a1ac">PixelExperience</a> <a href="/tags/Havoc/" style="font-size: 1.1em; color: #999">Havoc</a> <a href="/tags/xdroidOSS/" style="font-size: 1.1em; color: #999">xdroidOSS</a> <a href="/tags/Project-Telescopium/" style="font-size: 1.3em; color: #99a1ac">Project-Telescopium</a> <a href="/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/" style="font-size: 1.5em; color: #99a9bf">玩客云</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-06-03T00:21:03.882Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By QKIvan</div><div class="footer_custom_text"><span id="realtime_duration"></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>function panguFn () {
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Project-Telescopium/" style="font-size: 1.3em; color: #99a1ac">Project-Telescopium</a> <a href="/tags/%E7%8E%A9%E5%AE%A2%E4%BA%91/" style="font-size: 1.5em; color: #99a9bf">玩客云</a> <a href="/tags/xdroidOSS/" style="font-size: 1.1em; color: #999">xdroidOSS</a> <a href="/tags/Havoc/" style="font-size: 1.1em; color: #999">Havoc</a> <a href="/tags/Null-Android/" style="font-size: 1.1em; color: #999">Null-Android</a> <a href="/tags/PixelExperience/" style="font-size: 1.3em; color: #99a1ac">PixelExperience</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">十月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">11</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-10-21T13:42:40.231Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By QKIvan</div><div class="footer_custom_text"><span id="realtime_duration"></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {
     getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
@@ -397,10 +347,10 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
   if (true) {
     typedJSFn.init(["(๑>m<๑)","（●>∀<●）","(〃＾∇＾)ぇ∧∧∧っ","(｡ŏ_ŏ)","°(°ˊДˋ°) °"])
   } else {
-    document.getElementById("subtitle").textContent = '(๑>m<๑)'
+    document.getElementById("subtitle").textContent = "(๑>m<๑)"
   }
 }
-typedJSFn.run(subtitleType)</script></div><script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js"></script><script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/duration.min.js"></script><script src="/scripts/realtime.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+typedJSFn.run(subtitleType)</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
@@ -412,11 +362,11 @@ var pjax = new Pjax({
 
 document.addEventListener('pjax:send', function () {
 
-  // removeEventListener scroll 
-  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
-  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
 
-  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  document.getElementById('rightside').classList.remove('rightside-show')
   
   if (window.aplayers) {
     for (let i = 0; i < window.aplayers.length; i++) {
@@ -448,7 +398,6 @@ document.addEventListener('pjax:complete', function () {
 
   GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
 
-  typeof chatBtnFn === 'function' && chatBtnFn()
   typeof panguInit === 'function' && panguInit()
 
   // google analytics
@@ -463,8 +412,8 @@ document.addEventListener('pjax:complete', function () {
   typeof Prism === 'object' && Prism.highlightAll()
 })
 
-document.addEventListener('pjax:error', (e) => {
+document.addEventListener('pjax:error', e => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
