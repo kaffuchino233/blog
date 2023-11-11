@@ -154,46 +154,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</title>
-    <url>/page/2827472a.html</url>
-    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin</h1><p>A Hotfix version for raphael&#x2F;raphaelin.</p>
-<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
-<p>Project-Telescopium Version: 13.0.4-HotFix</p>
-<p>Android Version:13(TD1A.221105.001)</p>
-<p>Android Security Update: 5 November 2022</p>
-<p>Build Date: 2022-12-24</p>
-<p>Build variant: user</p>
-<p>Maintainer: QKIvan</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li><p>You can dirty flash from 13.0.4</p>
-</li>
-<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
-</li>
-<li><p>Flash Android 11 firmware before you flash rom</p>
-</li>
-<li><p>You can download ota package from 13.0.4(in Settings –&gt; System –&gt; System Update)</p>
-</li>
-</ul>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update simplified Chinese translation(MiParts)</p>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><p>Move StatusBar Lyric to Statusbar Settings</p>
-<p>Rebase our source</p>
-<p>Drop Black Theme</p>
-<p>Drop Pocket Mode</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4-HotFix_raphael-20221224-0940.zip/download">SourceForge.net</a></p>
-<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
-]]></content>
-      <categories>
-        <category>Project-Telescopium</category>
-      </categories>
-      <tags>
-        <tag>Project-Telescopium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/page/0.html</url>
+    <title>something Backup</title>
+    <url>/page/ecfbc661.html</url>
     <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
-<p><code>sudo apt install repo git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync</code></p>
+<p><code>sudo apt install repo git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
 <p>For Ubuntu 20.04</p>
 <p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
 <h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
@@ -230,6 +194,45 @@
 <p><a href="https://github.com/Project-Telescopium/packages_apps_CarrierConfig/commit/f32d58cc8dbdc917a0fd7b7fe2b9332a31f77bd5">Override name of Mainland China carriers · Project-Telescopium&#x2F;packages_apps_CarrierConfig@f32d58c · GitHub</a></p>
 <p><a href="https://github.com/Project-Telescopium/packages_services_Telephony/commit/0cf64a9207c05ceb6b9ce8b16c9d5568ffa11f33">Add support for multi-language carrier name override · Project-Telescopium&#x2F;packages_services_Telephony@0cf64a9 · GitHub</a></p>
 ]]></content>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</title>
+    <url>/page/2827472a.html</url>
+    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin</h1><p>A Hotfix version for raphael&#x2F;raphaelin.</p>
+<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
+<p>Project-Telescopium Version: 13.0.4-HotFix</p>
+<p>Android Version:13(TD1A.221105.001)</p>
+<p>Android Security Update: 5 November 2022</p>
+<p>Build Date: 2022-12-24</p>
+<p>Build variant: user</p>
+<p>Maintainer: QKIvan</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li><p>You can dirty flash from 13.0.4</p>
+</li>
+<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
+</li>
+<li><p>Flash Android 11 firmware before you flash rom</p>
+</li>
+<li><p>You can download ota package from 13.0.4(in Settings –&gt; System –&gt; System Update)</p>
+</li>
+</ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update simplified Chinese translation(MiParts)</p>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><p>Move StatusBar Lyric to Statusbar Settings</p>
+<p>Rebase our source</p>
+<p>Drop Black Theme</p>
+<p>Drop Pocket Mode</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4-HotFix_raphael-20221224-0940.zip/download">SourceForge.net</a></p>
+<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
+]]></content>
+      <categories>
+        <category>Project-Telescopium</category>
+      </categories>
+      <tags>
+        <tag>Project-Telescopium</tag>
+      </tags>
   </entry>
   <entry>
     <title>xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</title>
@@ -252,6 +255,59 @@
       </categories>
       <tags>
         <tag>xdroidOSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装Cloudreve并设置开机自启</title>
+    <url>/page/bc20.html</url>
+    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
+
+<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
+<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
+<p>执行.&#x2F;cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
+<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
+<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到&#x2F;mnt&#x2F;wd这个目录，那这里就填&#x2F;mnt&#x2F;wd，以此类推，剩下的可以不管，保存即可。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
+<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接&#x2F;快捷方式到这里写你的硬盘挂载的位置。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
+<p>找到用户组，设置管理员的容量。</p>
+<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
+<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>然后按esc，再输入:wq，就可以保存。</p>
+<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
       </tags>
   </entry>
   <entry>
@@ -357,59 +413,6 @@
 <p>SMB：账户root，密码1234</p>
 <p>SFTP：账户root，密码powersee233</p>
 <p>transmission：账号admin，密码admin（默认停用，要去Portainer里面启用）</p>
-]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装Cloudreve并设置开机自启</title>
-    <url>/page/bc20.html</url>
-    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
-
-<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
-<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
-<p>执行.&#x2F;cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
-<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
-<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到&#x2F;mnt&#x2F;wd这个目录，那这里就填&#x2F;mnt&#x2F;wd，以此类推，剩下的可以不管，保存即可。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
-<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接&#x2F;快捷方式到这里写你的硬盘挂载的位置。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
-<p>找到用户组，设置管理员的容量。</p>
-<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
-<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
-
-<p>然后按esc，再输入:wq，就可以保存。</p>
-<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
 ]]></content>
       <categories>
         <category>矿渣</category>
