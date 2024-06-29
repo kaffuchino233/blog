@@ -164,7 +164,7 @@
 
   
   <url>
-    <loc>https://www.qkivan.ink/tags/Null-Android/</loc>
+    <loc>https://www.qkivan.ink/tags/AOSPA/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -185,7 +185,7 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/tags/Notes/</loc>
+    <loc>https://www.qkivan.ink/tags/Null-Android/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -206,20 +206,27 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/tags/Havoc/</loc>
+    <loc>https://www.qkivan.ink/tags/Notes/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/tags/AOSPA/</loc>
+    <loc>https://www.qkivan.ink/tags/Havoc/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://www.qkivan.ink/categories/AOSPA/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
@@ -251,13 +258,6 @@
   
   <url>
     <loc>https://www.qkivan.ink/categories/Havoc/</loc>
-    <lastmod>2024-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qkivan.ink/categories/AOSPA/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

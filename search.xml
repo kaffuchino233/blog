@@ -53,29 +53,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</title>
-    <url>/page/24ad4c47.html</url>
-    <content><![CDATA[<h1 id="Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona"><a href="#Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona" class="headerlink" title="Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)"></a>Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)</h1><h2 id="Build-info"><a href="#Build-info" class="headerlink" title="Build info"></a>Build info</h2><p>Android Version: 13</p>
-<p>Build Date: 2023-07-03</p>
-<p>Build variant: userdebug</p>
-<p>Device: OnePlus SM8250 Devices(opkona)</p>
-<p>Project Null Version: SNAPSHOT</p>
-<p>Project Null Branch: 13.1-BETA</p>
-<p>Maintainer: QKIvan</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li>Based on OSS13 Firmware</li>
-<li>ext4 build</li>
-<li>Disabled CLO Boost</li>
-<li>Stellaris Kernel</li>
-</ul>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>Intial Build</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-prereleases/files/opkona-SNAPSHOT-20230703.zip/download">SourceForge</a></p>
-]]></content>
-      <tags>
-        <tag>Null-Android</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PixelExperience Plus Update for raphael/raphaelin</title>
     <url>/page/f4f12157.html</url>
     <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
@@ -110,6 +87,42 @@
       <categories>
         <category>PixelExperience</category>
       </categories>
+      <tags>
+        <tag>PixelExperience</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
+    <url>/page/46f62f90.html</url>
+    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>Android Version: 13</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Initial Build</li>
+<li>October security patch</li>
+<li>Kernel Upstream to 4.9.275</li>
+<li>Import simplified Chinese translation in parts</li>
+<li>Improve paddings&#x2F;margins</li>
+<li>Fixed PPS charging</li>
+<li>Disable blur on app launch</li>
+<li>Enable background blur</li>
+<li>Use miui captive portal</li>
+<li>Set globally accessible NTP server</li>
+<li>Use Clang-Proton to build</li>
+</ul>
+<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
+<li>Add Statusbar Lyric</li>
+<li>Add per-app volume</li>
+<li>Add NFC qs tile</li>
+<li>Add Light qs</li>
+<li>Add lockscreen quick unlock.</li>
+<li>Allow user to add&#x2F;remove QS with one click</li>
+<li>Use color accent for charging animation</li>
+<li>Make New QS Footer background translucent</li>
+</ul>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+]]></content>
       <tags>
         <tag>PixelExperience</tag>
       </tags>
@@ -203,6 +216,29 @@
       </categories>
       <tags>
         <tag>Project-Telescopium</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</title>
+    <url>/page/24ad4c47.html</url>
+    <content><![CDATA[<h1 id="Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona"><a href="#Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona" class="headerlink" title="Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)"></a>Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)</h1><h2 id="Build-info"><a href="#Build-info" class="headerlink" title="Build info"></a>Build info</h2><p>Android Version: 13</p>
+<p>Build Date: 2023-07-03</p>
+<p>Build variant: userdebug</p>
+<p>Device: OnePlus SM8250 Devices(opkona)</p>
+<p>Project Null Version: SNAPSHOT</p>
+<p>Project Null Branch: 13.1-BETA</p>
+<p>Maintainer: QKIvan</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li>Based on OSS13 Firmware</li>
+<li>ext4 build</li>
+<li>Disabled CLO Boost</li>
+<li>Stellaris Kernel</li>
+</ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>Intial Build</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-prereleases/files/opkona-SNAPSHOT-20230703.zip/download">SourceForge</a></p>
+]]></content>
+      <tags>
+        <tag>Null-Android</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +376,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Shell/Tools/Commits Backup</title>
+    <url>/page/ecfbc661.html</url>
+    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
+<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
+<p>For Ubuntu 20.04</p>
+<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
+<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
+<p>Ubuntu Tools:</p>
+<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
+<p>Debian Tools:</p>
+<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
+<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
+<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
+]]></content>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>玩客云安装Cloudreve并设置开机自启</title>
     <url>/page/bc20.html</url>
     <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
@@ -426,61 +481,6 @@
       </categories>
       <tags>
         <tag>Havoc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
-    <url>/page/46f62f90.html</url>
-    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>Android Version: 13</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Initial Build</li>
-<li>October security patch</li>
-<li>Kernel Upstream to 4.9.275</li>
-<li>Import simplified Chinese translation in parts</li>
-<li>Improve paddings&#x2F;margins</li>
-<li>Fixed PPS charging</li>
-<li>Disable blur on app launch</li>
-<li>Enable background blur</li>
-<li>Use miui captive portal</li>
-<li>Set globally accessible NTP server</li>
-<li>Use Clang-Proton to build</li>
-</ul>
-<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
-<li>Add Statusbar Lyric</li>
-<li>Add per-app volume</li>
-<li>Add NFC qs tile</li>
-<li>Add Light qs</li>
-<li>Add lockscreen quick unlock.</li>
-<li>Allow user to add&#x2F;remove QS with one click</li>
-<li>Use color accent for charging animation</li>
-<li>Make New QS Footer background translucent</li>
-</ul>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <tags>
-        <tag>PixelExperience</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Shell/Tools/Commits Backup</title>
-    <url>/page/ecfbc661.html</url>
-    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
-<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
-<p>For Ubuntu 20.04</p>
-<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
-<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
-<p>Ubuntu Tools:</p>
-<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
-<p>Debian Tools:</p>
-<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
-<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
-<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
-]]></content>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
 </search>
