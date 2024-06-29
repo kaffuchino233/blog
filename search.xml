@@ -112,100 +112,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PixelExperience Plus Update for raphael/raphaelin</title>
-    <url>/page/f4f12157.html</url>
-    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Update redfin fingerprint</li>
-<li>Configure aux camera for Aperture</li>
-<li>Improve face unlock for popup camera</li>
-<li>Don’t warn user about FC in Google TTS</li>
-<li>Enable Face Unlock</li>
-<li>Enable Quick Tap</li>
-<li>Use release-key</li>
-</ul>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
-<li>Switch to Plus Edition</li>
-<li>Add Statusbar Lyric</li>
-<li>Add haptic feedback for qs tiles</li>
-<li>Add NFC tile</li>
-<li>Add Data Switch QS Tile</li>
-<li>Add Light QS</li>
-<li>Safetynet Passed Without Root</li>
-<li>Export RecordingService for External Usage</li>
-<li>Reset props for status bar lyric</li>
-<li>Reduce screenshot dismiss delay to 3 seconds</li>
-<li>Implement lockscreen quick unlock</li>
-<li>Override name of Mainland China carriers</li>
-</ul>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <categories>
-        <category>PixelExperience</category>
-      </categories>
-      <tags>
-        <tag>PixelExperience</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</title>
-    <url>/page/e942e730.html</url>
-    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin</h1><p>Initial Project-Telescopium release based on Android 13</p>
-<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
-<p>Project-Telescopium Version: 13.0.4</p>
-<p>Android Version:13(TD1A.221105.001)</p>
-<p>Android Security Update: 5 November 2022</p>
-<p>Build Date: 2022-12-15</p>
-<p>Build variant: user</p>
-<p>Maintainer: QKIvan</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li><p>Clean Flash</p>
-</li>
-<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
-</li>
-<li><p>Flash Android 11 firmware before you flash rom</p>
-</li>
-</ul>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update our prebuilt kernel(Use Wind+)</p>
-<p>Improve paddings&#x2F;margins</p>
-<p>Update build fingerprint</p>
-<p>Enable some stuffs</p>
-<p>Use GcamGo</p>
-<p>Linux Kernel 4.14.275</p>
-<p>Fix up charging issue</p>
-<p>Use miui captive portal<br>Set globally accessible NTP server<br>Improve face unlock for popup camera<br>Don’t warn user about FC in Google TTS</p>
-<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><p>Add Pocket Mode</p>
-<p>Add Black Theme</p>
-<p>Add Vibration patterns from OOS</p>
-<p>Add Pulse and Ambient notification bars</p>
-<p>Use MiSans as default fonts</p>
-<p>Add Gamespace and reTicker</p>
-<p>Add StatusBar Lyric</p>
-<p>Add GamesProps for GameSpace</p>
-<p>Add Strict Standby Policy</p>
-<p>Add Data Switch QS Tile</p>
-<p>Add Light QuickSettings</p>
-<p>Fixed Camera</p>
-<p>Make New QS Footer background translucent</p>
-<p>Some Memory optimization from ProtonAOSP</p>
-<p>Implement lockscreen quick unlock<br>Override name of Mainland China carriers</p>
-<p>Add haptic feedback for qs tiles</p>
-<p>And more…</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip/download">SourceForge.net</a></p>
-<p><a href="https://cloud.qkivan.ink/Rom/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip">QKIvan’s Cloud</a></p>
-<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
-]]></content>
-      <categories>
-        <category>Project-Telescopium</category>
-      </categories>
-      <tags>
-        <tag>Project-Telescopium</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</title>
     <url>/page/2827472a.html</url>
     <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin</h1><p>A Hotfix version for raphael&#x2F;raphaelin.</p>
@@ -376,6 +282,45 @@
       </tags>
   </entry>
   <entry>
+    <title>PixelExperience Plus Update for raphael/raphaelin</title>
+    <url>/page/f4f12157.html</url>
+    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Update redfin fingerprint</li>
+<li>Configure aux camera for Aperture</li>
+<li>Improve face unlock for popup camera</li>
+<li>Don’t warn user about FC in Google TTS</li>
+<li>Enable Face Unlock</li>
+<li>Enable Quick Tap</li>
+<li>Use release-key</li>
+</ul>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
+<li>Switch to Plus Edition</li>
+<li>Add Statusbar Lyric</li>
+<li>Add haptic feedback for qs tiles</li>
+<li>Add NFC tile</li>
+<li>Add Data Switch QS Tile</li>
+<li>Add Light QS</li>
+<li>Safetynet Passed Without Root</li>
+<li>Export RecordingService for External Usage</li>
+<li>Reset props for status bar lyric</li>
+<li>Reduce screenshot dismiss delay to 3 seconds</li>
+<li>Implement lockscreen quick unlock</li>
+<li>Override name of Mainland China carriers</li>
+</ul>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+]]></content>
+      <categories>
+        <category>PixelExperience</category>
+      </categories>
+      <tags>
+        <tag>PixelExperience</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Shell/Tools/Commits Backup</title>
     <url>/page/ecfbc661.html</url>
     <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
@@ -392,25 +337,6 @@
 ]]></content>
       <tags>
         <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
-]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
       </tags>
   </entry>
   <entry>
@@ -445,6 +371,80 @@
       </categories>
       <tags>
         <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Project-Telescopium 13.0.4 Community Build For raphael/raphaelin</title>
+    <url>/page/e942e730.html</url>
+    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4 Community Build For raphael&#x2F;raphaelin</h1><p>Initial Project-Telescopium release based on Android 13</p>
+<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
+<p>Project-Telescopium Version: 13.0.4</p>
+<p>Android Version:13(TD1A.221105.001)</p>
+<p>Android Security Update: 5 November 2022</p>
+<p>Build Date: 2022-12-15</p>
+<p>Build variant: user</p>
+<p>Maintainer: QKIvan</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li><p>Clean Flash</p>
+</li>
+<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
+</li>
+<li><p>Flash Android 11 firmware before you flash rom</p>
+</li>
+</ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update our prebuilt kernel(Use Wind+)</p>
+<p>Improve paddings&#x2F;margins</p>
+<p>Update build fingerprint</p>
+<p>Enable some stuffs</p>
+<p>Use GcamGo</p>
+<p>Linux Kernel 4.14.275</p>
+<p>Fix up charging issue</p>
+<p>Use miui captive portal<br>Set globally accessible NTP server<br>Improve face unlock for popup camera<br>Don’t warn user about FC in Google TTS</p>
+<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><p>Add Pocket Mode</p>
+<p>Add Black Theme</p>
+<p>Add Vibration patterns from OOS</p>
+<p>Add Pulse and Ambient notification bars</p>
+<p>Use MiSans as default fonts</p>
+<p>Add Gamespace and reTicker</p>
+<p>Add StatusBar Lyric</p>
+<p>Add GamesProps for GameSpace</p>
+<p>Add Strict Standby Policy</p>
+<p>Add Data Switch QS Tile</p>
+<p>Add Light QuickSettings</p>
+<p>Fixed Camera</p>
+<p>Make New QS Footer background translucent</p>
+<p>Some Memory optimization from ProtonAOSP</p>
+<p>Implement lockscreen quick unlock<br>Override name of Mainland China carriers</p>
+<p>Add haptic feedback for qs tiles</p>
+<p>And more…</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip/download">SourceForge.net</a></p>
+<p><a href="https://cloud.qkivan.ink/Rom/raphael/Project-Telescopium/Project-Telescopium-13.0.4_raphael-20221215-1057.zip">QKIvan’s Cloud</a></p>
+<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
+]]></content>
+      <categories>
+        <category>Project-Telescopium</category>
+      </categories>
+      <tags>
+        <tag>Project-Telescopium</tag>
       </tags>
   </entry>
   <entry>

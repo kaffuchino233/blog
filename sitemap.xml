@@ -229,13 +229,6 @@
   </url>
   
   <url>
-    <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
-    <lastmod>2024-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.qkivan.ink/categories/Project-Telescopium/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -251,6 +244,13 @@
   
   <url>
     <loc>https://www.qkivan.ink/categories/%E7%9F%BF%E6%B8%A3/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qkivan.ink/categories/PixelExperience/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
