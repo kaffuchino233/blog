@@ -6,12 +6,18 @@
     <content><![CDATA[<h1 id="适用于小米-12S-Pro-的-AOSPA-说明"><a href="#适用于小米-12S-Pro-的-AOSPA-说明" class="headerlink" title="适用于小米 12S Pro 的 AOSPA 说明"></a>适用于小米 12S Pro 的 AOSPA 说明</h1><p>这只是一个符合我个人使用习惯的 AOSPA Fork，与源码存在较大差异，特此写了一个简介（同时也是 Changelog &amp; Credits）<br>最后更新：2024-6-30<br>适用设备：Xiaomi 12S Pro (unicorn)</p>
 <h2 id="刷入教程"><a href="#刷入教程" class="headerlink" title="刷入教程"></a>刷入教程</h2><p>在此之前，请先将你的 platform-tools 更新至最新，避免不必要的麻烦。<br>可从此下载：<a href="https://developer.android.com/tools/releases/platform-tools">https://developer.android.com/tools/releases/platform-tools</a></p>
 <ol>
-<li>使用 FastbootEnhance&#x2F;Payload Dumper 等工具获取到 boot、vendor_boot、dtbo、recovery 等镜像（如已有第三方 Recovery，可跳过此步）</li>
-<li>输入下列命令<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fastboot flash boot path</span><br><span class="line">fastboot flash dtbo path</span><br><span class="line">fastboot flash vendor_boot path</span><br><span class="line">fastboot flash recovery path</span><br><span class="line">fastboot reboot recovery</span><br></pre></td></tr></table></figure></li>
-<li>选择 “Wipe data&#x2F;factory reset”，并确认</li>
-<li>选择 “Apply update from ADB”</li>
-<li>输入下列命令<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fastboot flash boot path</span><br><span class="line">fastboot flash dtbo path</span><br><span class="line">fastboot flash vendor_boot path</span><br><span class="line">fastboot flash recovery path</span><br><span class="line">fastboot reboot recovery</span><br></pre></td></tr></table></figure></li>
-<li>选择 “Reboot to system now”，Enjoy!</li>
+<li><p>使用 FastbootEnhance&#x2F;Payload Dumper 等工具获取到 boot、vendor_boot、dtbo、recovery 等镜像（如已有第三方 Recovery，可跳过此步）</p>
+</li>
+<li><p>输入下列命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fastboot flash boot path</span><br><span class="line">fastboot flash dtbo path</span><br><span class="line">fastboot flash vendor_boot path</span><br><span class="line">fastboot flash recovery path</span><br><span class="line">fastboot reboot recovery</span><br></pre></td></tr></table></figure></li>
+<li><p>选择 “Wipe data&#x2F;factory reset”，并确认</p>
+</li>
+<li><p>选择 “Apply update from ADB”</p>
+</li>
+<li><p>输入下列命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb sideload path</span><br></pre></td></tr></table></figure></li>
+<li><p>选择 “Reboot to system now”，Enjoy!</p>
+</li>
 </ol>
 <h2 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h2><p>Bug: You tell me.</p>
 <h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog:"></a>Changelog:</h2><h3 id="2024-6-30"><a href="#2024-6-30" class="headerlink" title="2024-6-30:"></a>2024-6-30:</h3><h5 id="设备："><a href="#设备：" class="headerlink" title="设备："></a>设备：</h5><ul>
@@ -197,51 +203,6 @@
       </categories>
       <tags>
         <tag>Project-Telescopium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>something Backup</title>
-    <url>/page/ecfbc661.html</url>
-    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
-<p><code>sudo apt install repo git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
-<p>For Ubuntu 20.04</p>
-<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
-<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
-<p>Ubuntu Tools:</p>
-<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
-<p>Debian Tools:</p>
-<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
-<h2 id="Git-submodule-subtree"><a href="#Git-submodule-subtree" class="headerlink" title="Git submodule&#x2F;subtree"></a>Git submodule&#x2F;subtree</h2><h3 id="Submodule"><a href="#Submodule" class="headerlink" title="Submodule"></a>Submodule</h3><p>Add Submodule</p>
-<p><code>git submodule add https://xxx.git src/SubModule</code></p>
-<p>Update Submodule</p>
-<p><code>git submodule update --remote</code></p>
-<p>Remove Submodule</p>
-<p>Remove:</p>
-<p>.gitmodules</p>
-<p>.git&#x2F;modules</p>
-<p>src&#x2F;SubModule</p>
-<p>Edit:</p>
-<p>.git&#x2F;config</p>
-<h3 id="Subtree"><a href="#Subtree" class="headerlink" title="Subtree"></a>Subtree</h3><p>Add Subtree</p>
-<p><code>git subtree add --prefix=src/subTree sub branch</code></p>
-<p>Update Subtree</p>
-<p><code>git subtree pull --prefix=src/subTree http://xxxx.git master</code></p>
-<p>Remove Subtree</p>
-<p>Remove src&#x2F;subTree and commits</p>
-<h3 id="Merge-CLO-Tag"><a href="#Merge-CLO-Tag" class="headerlink" title="Merge CLO Tag"></a>Merge CLO Tag</h3><p>e.g. LA.UM.9.12.1.r1-05900-SMxx50.QSSI12.0,msm-4.19</p>
-<p><code>git fetch https://git.codelinaro.org/clo/la/kernel/msm-4.19 LA.UM.9.12.1.r1-05900-SMxx50.QSSI12.0</code></p>
-<p><code>git merge FETCH_HEAD</code></p>
-<h3 id="Kernel-Build-workflow-For-Github"><a href="#Kernel-Build-workflow-For-Github" class="headerlink" title="Kernel Build workflow(For Github)"></a>Kernel Build workflow(For Github)</h3><p><a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">CI: Add kernel build actions · QKIvan&#x2F;android_kernel_oneplus_sm8250@26bff06 · GitHub</a></p>
-<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
-<h3 id="AK3-For-opkona"><a href="#AK3-For-opkona" class="headerlink" title="AK3 For opkona"></a>AK3 For opkona</h3><p><a href="https://github.com/QKIvan/AnyKernel3">GitHub - QKIvan&#x2F;AnyKernel3</a></p>
-<h3 id="Some-commits-backup"><a href="#Some-commits-backup" class="headerlink" title="Some commits backup"></a>Some commits backup</h3><p><a href="https://github.com/Project-Telescopium/vendor_custom-preference/commit/35788e9edef31a90a03c3070171a4031010624e6">preference: Introduce {Global,Secure,System}MainSwitchPreference · Project-Telescopium&#x2F;vendor_custom-preference@35788e9 · GitHub</a></p>
-<p><a href="https://github.com/Project-Telescopium/vendor_custom-preference/commit/ced88e989f911e5a4707f43863cb6a30e0b63d61">preference: add SystemPropertySwitchPreference · Project-Telescopium&#x2F;vendor_custom-preference@ced88e9 · GitHub</a></p>
-<p><a href="https://github.com/Project-Telescopium/frameworks_opt_telephony/commit/68d6a4a63858280214d30b40622c05c1eb347a65">Ignore PLMN bit when SPN is required · Project-Telescopium&#x2F;frameworks_opt_telephony@68d6a4a · GitHub</a></p>
-<p><a href="https://github.com/Project-Telescopium/packages_apps_CarrierConfig/commit/f32d58cc8dbdc917a0fd7b7fe2b9332a31f77bd5">Override name of Mainland China carriers · Project-Telescopium&#x2F;packages_apps_CarrierConfig@f32d58c · GitHub</a></p>
-<p><a href="https://github.com/Project-Telescopium/packages_services_Telephony/commit/0cf64a9207c05ceb6b9ce8b16c9d5568ffa11f33">Add support for multi-language carrier name override · Project-Telescopium&#x2F;packages_services_Telephony@0cf64a9 · GitHub</a></p>
-]]></content>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -501,6 +462,25 @@
 ]]></content>
       <tags>
         <tag>PixelExperience</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Shell/Tools/Commits Backup</title>
+    <url>/page/ecfbc661.html</url>
+    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
+<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
+<p>For Ubuntu 20.04</p>
+<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
+<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
+<p>Ubuntu Tools:</p>
+<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
+<p>Debian Tools:</p>
+<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
+<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
+<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
+]]></content>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
 </search>
