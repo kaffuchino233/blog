@@ -53,42 +53,26 @@
       </tags>
   </entry>
   <entry>
-    <title>PixelExperience Plus Update for raphael/raphaelin</title>
-    <url>/page/f4f12157.html</url>
-    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Update redfin fingerprint</li>
-<li>Configure aux camera for Aperture</li>
-<li>Improve face unlock for popup camera</li>
-<li>Don’t warn user about FC in Google TTS</li>
-<li>Enable Face Unlock</li>
-<li>Enable Quick Tap</li>
-<li>Use release-key</li>
+    <title>Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</title>
+    <url>/page/24ad4c47.html</url>
+    <content><![CDATA[<h1 id="Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona"><a href="#Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona" class="headerlink" title="Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)"></a>Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)</h1><h2 id="Build-info"><a href="#Build-info" class="headerlink" title="Build info"></a>Build info</h2><p>Android Version: 13</p>
+<p>Build Date: 2023-07-03</p>
+<p>Build variant: userdebug</p>
+<p>Device: OnePlus SM8250 Devices(opkona)</p>
+<p>Project Null Version: SNAPSHOT</p>
+<p>Project Null Branch: 13.1-BETA</p>
+<p>Maintainer: QKIvan</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li>Based on OSS13 Firmware</li>
+<li>ext4 build</li>
+<li>Disabled CLO Boost</li>
+<li>Stellaris Kernel</li>
 </ul>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
-<li>Switch to Plus Edition</li>
-<li>Add Statusbar Lyric</li>
-<li>Add haptic feedback for qs tiles</li>
-<li>Add NFC tile</li>
-<li>Add Data Switch QS Tile</li>
-<li>Add Light QS</li>
-<li>Safetynet Passed Without Root</li>
-<li>Export RecordingService for External Usage</li>
-<li>Reset props for status bar lyric</li>
-<li>Reduce screenshot dismiss delay to 3 seconds</li>
-<li>Implement lockscreen quick unlock</li>
-<li>Override name of Mainland China carriers</li>
-</ul>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>Intial Build</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-prereleases/files/opkona-SNAPSHOT-20230703.zip/download">SourceForge</a></p>
 ]]></content>
-      <categories>
-        <category>PixelExperience</category>
-      </categories>
       <tags>
-        <tag>PixelExperience</tag>
+        <tag>Null-Android</tag>
       </tags>
   </entry>
   <entry>
@@ -123,6 +107,45 @@
 </ul>
 <h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
 ]]></content>
+      <tags>
+        <tag>PixelExperience</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PixelExperience Plus Update for raphael/raphaelin</title>
+    <url>/page/f4f12157.html</url>
+    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Update redfin fingerprint</li>
+<li>Configure aux camera for Aperture</li>
+<li>Improve face unlock for popup camera</li>
+<li>Don’t warn user about FC in Google TTS</li>
+<li>Enable Face Unlock</li>
+<li>Enable Quick Tap</li>
+<li>Use release-key</li>
+</ul>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
+<li>Switch to Plus Edition</li>
+<li>Add Statusbar Lyric</li>
+<li>Add haptic feedback for qs tiles</li>
+<li>Add NFC tile</li>
+<li>Add Data Switch QS Tile</li>
+<li>Add Light QS</li>
+<li>Safetynet Passed Without Root</li>
+<li>Export RecordingService for External Usage</li>
+<li>Reset props for status bar lyric</li>
+<li>Reduce screenshot dismiss delay to 3 seconds</li>
+<li>Implement lockscreen quick unlock</li>
+<li>Override name of Mainland China carriers</li>
+</ul>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+]]></content>
+      <categories>
+        <category>PixelExperience</category>
+      </categories>
       <tags>
         <tag>PixelExperience</tag>
       </tags>
@@ -216,29 +239,6 @@
       </categories>
       <tags>
         <tag>Project-Telescopium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</title>
-    <url>/page/24ad4c47.html</url>
-    <content><![CDATA[<h1 id="Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona"><a href="#Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona" class="headerlink" title="Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)"></a>Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)</h1><h2 id="Build-info"><a href="#Build-info" class="headerlink" title="Build info"></a>Build info</h2><p>Android Version: 13</p>
-<p>Build Date: 2023-07-03</p>
-<p>Build variant: userdebug</p>
-<p>Device: OnePlus SM8250 Devices(opkona)</p>
-<p>Project Null Version: SNAPSHOT</p>
-<p>Project Null Branch: 13.1-BETA</p>
-<p>Maintainer: QKIvan</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li>Based on OSS13 Firmware</li>
-<li>ext4 build</li>
-<li>Disabled CLO Boost</li>
-<li>Stellaris Kernel</li>
-</ul>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>Intial Build</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-prereleases/files/opkona-SNAPSHOT-20230703.zip/download">SourceForge</a></p>
-]]></content>
-      <tags>
-        <tag>Null-Android</tag>
       </tags>
   </entry>
   <entry>
@@ -395,6 +395,25 @@
       </tags>
   </entry>
   <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>玩客云安装Cloudreve并设置开机自启</title>
     <url>/page/bc20.html</url>
     <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
@@ -421,25 +440,6 @@
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
-]]></content>
       <categories>
         <category>矿渣</category>
       </categories>
