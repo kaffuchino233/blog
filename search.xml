@@ -4,9 +4,7 @@
     <title>适用于小米 12S Pro 的 AOSPA 说明</title>
     <url>/page/af140e89.html</url>
     <content><![CDATA[<h1 id="适用于小米-12S-Pro-的-AOSPA-说明"><a href="#适用于小米-12S-Pro-的-AOSPA-说明" class="headerlink" title="适用于小米 12S Pro 的 AOSPA 说明"></a>适用于小米 12S Pro 的 AOSPA 说明</h1><p>这只是一个符合我个人使用习惯的 AOSPA Fork，与源码存在较大差异，特此写了一个简介（同时也是 Changelog &amp; Credits）</p>
-<p>最后更新：2024-07-08<br>适用设备：Xiaomi 12S Pro (unicorn)</p>
-<p>构建类型：userdebug &#x2F; test-key</p>
-<p>构建组织：UNOFFICIAL</p>
+<p>最后更新：2024-07-08<br>适用设备：Xiaomi 12S Pro (unicorn)<br>构建类型：userdebug &#x2F; test-key<br>构建组织：UNOFFICIAL</p>
 <h2 id="刷入教程"><a href="#刷入教程" class="headerlink" title="刷入教程"></a>刷入教程</h2><p>在此之前，请先将你的 platform-tools 更新至最新，避免不必要的麻烦。<br>可从此下载：<a href="https://developer.android.com/tools/releases/platform-tools">https://developer.android.com/tools/releases/platform-tools</a></p>
 <ol>
 <li><p>使用 FastbootEnhance&#x2F;Payload Dumper 等工具获取到 boot、vendor_boot、dtbo、recovery 等镜像（如已有第三方 Recovery，可跳过此步）</p>
@@ -84,28 +82,48 @@
 </li>
 </ul>
 <h3 id="2024-6-30"><a href="#2024-6-30" class="headerlink" title="2024-6-30:"></a>2024-6-30:</h3><h5 id="设备-1"><a href="#设备-1" class="headerlink" title="设备"></a>设备</h5><ul>
-<li>初始构建 </li>
-<li>已构建 PowerShare，但并未进行测试。</li>
-<li>使用 Prebuilt Kernel，非 OSS</li>
-<li>更新 GKI 至 android12-5.10@11995439</li>
+<li><p>初始构建 </p>
+</li>
+<li><p>已构建 PowerShare，但并未进行测试。</p>
+</li>
+<li><p>使用 Prebuilt Kernel，非 OSS</p>
+</li>
+<li><p>更新 GKI 至 android12-5.10@11995439</p>
+</li>
 </ul>
 <h5 id="源码-1"><a href="#源码-1" class="headerlink" title="源码"></a>源码</h5><ul>
-<li>引入状态栏歌词</li>
-<li>启用 AOSP 自带的应用克隆</li>
-<li>添加音量条&#x2F;亮度条&#x2F;磁铁&#x2F;磁贴&#x2F;按钮振动</li>
-<li>引入游戏空间</li>
-<li>引入应用音量（同时使用类 LineageOS 的音量面板）</li>
-<li>亮色 QS</li>
-<li>在“互联网”磁贴中加入热点开关（需要解锁手机使用）</li>
-<li>启用新的横屏样式</li>
-<li>自带 Bootloader 状态欺骗</li>
-<li>引入网速计</li>
-<li>加入高级重启</li>
-<li>允许隐藏开发者模式状态</li>
-<li>允许切换媒体播放器的波浪进度条</li>
-<li>允许忽略忽略安全窗口标志</li>
-<li>在锁屏界面隐藏状态栏</li>
-<li>其它优化&#x2F;更改</li>
+<li><p>引入状态栏歌词</p>
+</li>
+<li><p>启用 AOSP 自带的应用克隆</p>
+</li>
+<li><p>添加音量条&#x2F;亮度条&#x2F;磁铁&#x2F;磁贴&#x2F;按钮振动</p>
+</li>
+<li><p>引入游戏空间</p>
+</li>
+<li><p>引入应用音量（同时使用类 LineageOS 的音量面板）</p>
+</li>
+<li><p>亮色 QS</p>
+</li>
+<li><p>在“互联网”磁贴中加入热点开关（需要解锁手机使用）</p>
+</li>
+<li><p>启用新的横屏样式</p>
+</li>
+<li><p>自带 Bootloader 状态欺骗</p>
+</li>
+<li><p>引入网速计</p>
+</li>
+<li><p>加入高级重启</p>
+</li>
+<li><p>允许隐藏开发者模式状态</p>
+</li>
+<li><p>允许切换媒体播放器的波浪进度条</p>
+</li>
+<li><p>允许忽略忽略安全窗口标志</p>
+</li>
+<li><p>在锁屏界面隐藏状态栏</p>
+</li>
+<li><p>其它优化&#x2F;更改</p>
+</li>
 </ul>
 <h2 id="Credits"><a href="#Credits" class="headerlink" title="Credits"></a>Credits</h2><p>感谢 @rk134 @Nanhumly @EndCredits @bheatleyyy @hiper25 的帮助 &amp; 仓库！（排名不分先后）</p>
 ]]></content>
@@ -137,6 +155,42 @@
 ]]></content>
       <tags>
         <tag>Null-Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
+    <url>/page/46f62f90.html</url>
+    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>Android Version: 13</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Initial Build</li>
+<li>October security patch</li>
+<li>Kernel Upstream to 4.9.275</li>
+<li>Import simplified Chinese translation in parts</li>
+<li>Improve paddings&#x2F;margins</li>
+<li>Fixed PPS charging</li>
+<li>Disable blur on app launch</li>
+<li>Enable background blur</li>
+<li>Use miui captive portal</li>
+<li>Set globally accessible NTP server</li>
+<li>Use Clang-Proton to build</li>
+</ul>
+<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
+<li>Add Statusbar Lyric</li>
+<li>Add per-app volume</li>
+<li>Add NFC qs tile</li>
+<li>Add Light qs</li>
+<li>Add lockscreen quick unlock.</li>
+<li>Allow user to add&#x2F;remove QS with one click</li>
+<li>Use color accent for charging animation</li>
+<li>Make New QS Footer background translucent</li>
+</ul>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
+]]></content>
+      <tags>
+        <tag>PixelExperience</tag>
       </tags>
   </entry>
   <entry>
@@ -174,42 +228,6 @@
       <categories>
         <category>PixelExperience</category>
       </categories>
-      <tags>
-        <tag>PixelExperience</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
-    <url>/page/46f62f90.html</url>
-    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>Android Version: 13</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Initial Build</li>
-<li>October security patch</li>
-<li>Kernel Upstream to 4.9.275</li>
-<li>Import simplified Chinese translation in parts</li>
-<li>Improve paddings&#x2F;margins</li>
-<li>Fixed PPS charging</li>
-<li>Disable blur on app launch</li>
-<li>Enable background blur</li>
-<li>Use miui captive portal</li>
-<li>Set globally accessible NTP server</li>
-<li>Use Clang-Proton to build</li>
-</ul>
-<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
-<li>Add Statusbar Lyric</li>
-<li>Add per-app volume</li>
-<li>Add NFC qs tile</li>
-<li>Add Light qs</li>
-<li>Add lockscreen quick unlock.</li>
-<li>Allow user to add&#x2F;remove QS with one click</li>
-<li>Use color accent for charging animation</li>
-<li>Make New QS Footer background translucent</li>
-</ul>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
       <tags>
         <tag>PixelExperience</tag>
       </tags>
@@ -329,25 +347,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Shell/Tools/Commits Backup</title>
-    <url>/page/ecfbc661.html</url>
-    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
-<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
-<p>For Ubuntu 20.04</p>
-<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
-<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
-<p>Ubuntu Tools:</p>
-<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
-<p>Debian Tools:</p>
-<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
-<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
-<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
-]]></content>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>可能是最全的玩客云刷机教程&amp;我遇到的坑</title>
     <url>/page/ada3.html</url>
     <content><![CDATA[<h1 id="可能是最全的玩客云刷机教程-我遇到的坑"><a href="#可能是最全的玩客云刷机教程-我遇到的坑" class="headerlink" title="可能是最全的玩客云刷机教程&amp;我遇到的坑"></a>可能是最全的玩客云刷机教程&amp;我遇到的坑</h1><p>提示：刷机有风险，操作需谨慎。</p>
@@ -459,22 +458,22 @@
       </tags>
   </entry>
   <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
+    <title>Shell/Tools/Commits Backup</title>
+    <url>/page/ecfbc661.html</url>
+    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
+<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
+<p>For Ubuntu 20.04</p>
+<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
+<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
+<p>Ubuntu Tools:</p>
+<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
+<p>Debian Tools:</p>
+<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
+<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
+<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
 ]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
       <tags>
-        <tag>玩客云</tag>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -504,6 +503,25 @@
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
       <categories>
         <category>矿渣</category>
       </categories>
