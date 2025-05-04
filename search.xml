@@ -11,7 +11,43 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fastboot -w </span><br><span class="line">fastboot update rompath</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h2 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h2><p>Bug: You tell me.</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog:"></a>Changelog:</h2><h3 id="2024-08-09"><a href="#2024-08-09" class="headerlink" title="2024-08-09:"></a>2024-08-09:</h3><h4 id="设备"><a href="#设备" class="headerlink" title="设备"></a>设备</h4><ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog:"></a>Changelog:</h2><h3 id="2024-11-20："><a href="#2024-11-20：" class="headerlink" title="2024-11-20："></a>2024-11-20：</h3><h4 id="设备"><a href="#设备" class="headerlink" title="设备"></a>设备</h4><ul>
+<li><p>使用 pa-gr 的 OSS Kernel （5.10.226）</p>
+<ul>
+<li><p>合并 ACK 至 2024-11-05</p>
+</li>
+<li><p>导入小米的 binder prio 驱动</p>
+</li>
+<li><p>导入小米的 sched 更改</p>
+</li>
+<li><p>启用节能工作队列</p>
+</li>
+<li><p>其它优化</p>
+</li>
+</ul>
+</li>
+<li><p>重写 Performance mode（使用 Stock 的 thermal-engine）</p>
+</li>
+<li><p>优化状态栏间距</p>
+</li>
+<li><p>更新相机至 4.9</p>
+</li>
+<li><p>从 MIUI14 导入扫一扫</p>
+</li>
+<li><p>修复红外</p>
+</li>
+<li><p>自动为应用程序选择核实的温控文件</p>
+</li>
+<li><p>从源码构建 mlipay 和 mtdservice</p>
+</li>
+</ul>
+<h4 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h4><ul>
+<li><p>合并 ASB 至 2024-11-01</p>
+</li>
+<li><p>带回部分自定义</p>
+</li>
+</ul>
+<h3 id="2024-08-09"><a href="#2024-08-09" class="headerlink" title="2024-08-09:"></a>2024-08-09:</h3><h4 id="设备-1"><a href="#设备-1" class="headerlink" title="设备"></a>设备</h4><ul>
 <li><p>切换到 OSS Kernel （5.10.222）</p>
 <ul>
 <li><p>向后移植 MGLRU （MGLRU 引发的冻屏属正常现象）</p>
@@ -61,13 +97,13 @@
 <li><p>从 unicorn V816.0.6.0.ULECNXM 更新 blob</p>
 </li>
 </ul>
-<h4 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h4><ul>
+<h4 id="源码-1"><a href="#源码-1" class="headerlink" title="源码"></a>源码</h4><ul>
 <li><p>八月安全补丁</p>
 </li>
 <li><p>删除所有由我添加的自定义（源码与官方同步）</p>
 </li>
 </ul>
-<h3 id="2024-07-08："><a href="#2024-07-08：" class="headerlink" title="2024-07-08："></a>2024-07-08：</h3><h4 id="设备-1"><a href="#设备-1" class="headerlink" title="设备"></a>设备</h4><ul>
+<h3 id="2024-07-08："><a href="#2024-07-08：" class="headerlink" title="2024-07-08："></a>2024-07-08：</h3><h4 id="设备-2"><a href="#设备-2" class="headerlink" title="设备"></a>设备</h4><ul>
 <li><p>设置正确的屏幕面板尺寸</p>
 </li>
 <li><p>优化状态栏间距</p>
@@ -87,7 +123,7 @@
 <li><p>切换到 unicorn OS1.0.4.0.ULECNXM 的 adreno blobs</p>
 </li>
 </ul>
-<h4 id="源码-1"><a href="#源码-1" class="headerlink" title="源码"></a>源码</h4><ul>
+<h4 id="源码-2"><a href="#源码-2" class="headerlink" title="源码"></a>源码</h4><ul>
 <li><p>七月安全补丁</p>
 </li>
 <li><p>丢弃网速计</p>
@@ -125,7 +161,7 @@
 <li><p>部分优化&#x2F;修复</p>
 </li>
 </ul>
-<h3 id="2024-6-30"><a href="#2024-6-30" class="headerlink" title="2024-6-30:"></a>2024-6-30:</h3><h5 id="设备-2"><a href="#设备-2" class="headerlink" title="设备"></a>设备</h5><ul>
+<h3 id="2024-6-30"><a href="#2024-6-30" class="headerlink" title="2024-6-30:"></a>2024-6-30:</h3><h5 id="设备-3"><a href="#设备-3" class="headerlink" title="设备"></a>设备</h5><ul>
 <li><p>初始构建 </p>
 </li>
 <li><p>已构建 PowerShare，但并未进行测试。</p>
@@ -135,7 +171,7 @@
 <li><p>更新 GKI 至 android12-5.10@11995439</p>
 </li>
 </ul>
-<h5 id="源码-2"><a href="#源码-2" class="headerlink" title="源码"></a>源码</h5><ul>
+<h5 id="源码-3"><a href="#源码-3" class="headerlink" title="源码"></a>源码</h5><ul>
 <li><p>引入状态栏歌词</p>
 </li>
 <li><p>启用 AOSP 自带的应用克隆</p>
@@ -180,6 +216,50 @@
       </tags>
   </entry>
   <entry>
+    <title>适用于一加 Ace 3 Pro的 Nameless-CLO 的说明</title>
+    <url>/page/e41daa11.html</url>
+    <content><![CDATA[<h1 id="适用于一加-Ace-3-Pro的-Nameless-CLO-的说明"><a href="#适用于一加-Ace-3-Pro的-Nameless-CLO-的说明" class="headerlink" title="适用于一加 Ace 3 Pro的 Nameless-CLO 的说明"></a>适用于一加 Ace 3 Pro的 Nameless-CLO 的说明</h1><p>最后更新：2025-05<br>适用设备：OnePlus Ace 3 Pro (corvette)<br>构建类型：user &#x2F; releases-key<br>构建组织：UNOFFICIAL</p>
+<p>注意，由于切换到私钥，从之前的版本升级上来需要清理数据</p>
+<h2 id="Bug"><a href="#Bug" class="headerlink" title="Bug"></a>Bug</h2><p>Bug: </p>
+<ol>
+<li>Pixelworks 不工作</li>
+</ol>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog:"></a>Changelog:</h2><h3 id="2025-05-04："><a href="#2025-05-04：" class="headerlink" title="2025-05-04："></a>2025-05-04：</h3><h4 id="设备"><a href="#设备" class="headerlink" title="设备"></a>设备</h4><ul>
+<li><p>切换到 user 构建</p>
+</li>
+<li><p>从 PJX110_15.0.0.703(CN01) 更新 blobs</p>
+</li>
+<li><p>从 PJX110_15.0.0.703(CN01) 导入 audio config</p>
+</li>
+<li><p>添加 Sony Dolby Atmos</p>
+</li>
+<li><p>添加空间音频</p>
+</li>
+<li><p>将 DPI 调节为 530</p>
+</li>
+<li><p>切换到 AOSP 色彩模式</p>
+</li>
+<li><p>导入缺失的 Charger firmware</p>
+</li>
+<li><p>从 CPH2581_15.0.0.702(EX01) 更新 touch blobs</p>
+</li>
+</ul>
+<h4 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h4><ul>
+<li><p>初步支持 LHDC（暂无设备测试）</p>
+</li>
+<li><p>其他优化</p>
+</li>
+</ul>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p>Sourceforge: <a href="https://sourceforge.net/projects/qkivan-releases/files/corvette/">https://sourceforge.net/projects/qkivan-releases/files/corvette/</a></p>
+]]></content>
+      <categories>
+        <category>Rom</category>
+      </categories>
+      <tags>
+        <tag>Rom</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Project Null/Null-Android For OnePlus SM8250 Devices(opkona)</title>
     <url>/page/24ad4c47.html</url>
     <content><![CDATA[<h1 id="Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona"><a href="#Project-Null-Null-Android-For-OnePlus-SM8250-Devices-opkona" class="headerlink" title="Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)"></a>Project Null&#x2F;Null-Android For OnePlus SM8250 Devices(opkona)</h1><h2 id="Build-info"><a href="#Build-info" class="headerlink" title="Build info"></a>Build info</h2><p>Android Version: 13</p>
@@ -200,81 +280,6 @@
 ]]></content>
       <tags>
         <tag>Null-Android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PixelExperience Plus Update for raphael/raphaelin</title>
-    <url>/page/f4f12157.html</url>
-    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Update redfin fingerprint</li>
-<li>Configure aux camera for Aperture</li>
-<li>Improve face unlock for popup camera</li>
-<li>Don’t warn user about FC in Google TTS</li>
-<li>Enable Face Unlock</li>
-<li>Enable Quick Tap</li>
-<li>Use release-key</li>
-</ul>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
-<li>Switch to Plus Edition</li>
-<li>Add Statusbar Lyric</li>
-<li>Add haptic feedback for qs tiles</li>
-<li>Add NFC tile</li>
-<li>Add Data Switch QS Tile</li>
-<li>Add Light QS</li>
-<li>Safetynet Passed Without Root</li>
-<li>Export RecordingService for External Usage</li>
-<li>Reset props for status bar lyric</li>
-<li>Reduce screenshot dismiss delay to 3 seconds</li>
-<li>Implement lockscreen quick unlock</li>
-<li>Override name of Mainland China carriers</li>
-</ul>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <categories>
-        <category>PixelExperience</category>
-      </categories>
-      <tags>
-        <tag>PixelExperience</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
-    <url>/page/46f62f90.html</url>
-    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
-<p>Build Variant: user</p>
-<p>Android Version: 13</p>
-<p>By QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
-<li>Initial Build</li>
-<li>October security patch</li>
-<li>Kernel Upstream to 4.9.275</li>
-<li>Import simplified Chinese translation in parts</li>
-<li>Improve paddings&#x2F;margins</li>
-<li>Fixed PPS charging</li>
-<li>Disable blur on app launch</li>
-<li>Enable background blur</li>
-<li>Use miui captive portal</li>
-<li>Set globally accessible NTP server</li>
-<li>Use Clang-Proton to build</li>
-</ul>
-<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
-<li>Add Statusbar Lyric</li>
-<li>Add per-app volume</li>
-<li>Add NFC qs tile</li>
-<li>Add Light qs</li>
-<li>Add lockscreen quick unlock.</li>
-<li>Allow user to add&#x2F;remove QS with one click</li>
-<li>Use color accent for charging animation</li>
-<li>Make New QS Footer background translucent</li>
-</ul>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <tags>
-        <tag>PixelExperience</tag>
       </tags>
   </entry>
   <entry>
@@ -333,170 +338,78 @@
       </tags>
   </entry>
   <entry>
-    <title>xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</title>
+    <title>PixelExperience Unofficial Update for raphael/raphaelin</title>
     <url>/page/46f62f90.html</url>
-    <content><![CDATA[<h1 id="xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin"><a href="#xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin" class="headerlink" title="xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin"></a>xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Released: 08&#x2F;10&#x2F;‘22</p>
+    <content><![CDATA[<h2 id="PixelExperience-Unofficial-Update-for-raphael-raphaelin"><a href="#PixelExperience-Unofficial-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Unofficial Update for raphael&#x2F;raphaelin"></a>PixelExperience Unofficial Update for raphael&#x2F;raphaelin</h2><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 06&#x2F;11&#x2F;‘22</p>
 <p>Build Variant: user</p>
 <p>Android Version: 13</p>
-<p>By @QKIvan</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Source-changelog"><a href="#Source-changelog" class="headerlink" title="Source changelog:"></a>Source changelog:</h3><p><a href="https://t.me/xdroid_news/359">@xdroid_news</a></p>
-<p>Device changelog:</p>
-<p>Initial Build</p>
-<p>Use Proton-Clang</p>
-<p>Improve paddings</p>
-<p>Import simplified Chinese translation</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes:"></a>Notes:</h2><p>• FBEv1 Build<br>• Make a NAND Backup.<br>• Screen Off FOD doesn’t work<br>• OSS Vendor and Arrow Kernel<br>• Use Android 11 Firmware and OrangeFox Unofficial(FBEv1)</p>
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://sourceforge.net/projects/qkivanrom/files/raphael/Android13/xdroid/INA.XD.13.0.r8-350810-raphael.REL.zip/download">SourceForge.net</a></p>
-]]></content>
-      <categories>
-        <category>xdroidOSS</category>
-      </categories>
-      <tags>
-        <tag>xdroidOSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</title>
-    <url>/page/2827472a.html</url>
-    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin</h1><p>A Hotfix version for raphael&#x2F;raphaelin.</p>
-<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
-<p>Project-Telescopium Version: 13.0.4-HotFix</p>
-<p>Android Version:13(TD1A.221105.001)</p>
-<p>Android Security Update: 5 November 2022</p>
-<p>Build Date: 2022-12-24</p>
-<p>Build variant: user</p>
-<p>Maintainer: QKIvan</p>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li><p>You can dirty flash from 13.0.4</p>
-</li>
-<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
-</li>
-<li><p>Flash Android 11 firmware before you flash rom</p>
-</li>
-<li><p>You can download ota package from 13.0.4(in Settings –&gt; System –&gt; System Update)</p>
-</li>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Initial Build</li>
+<li>October security patch</li>
+<li>Kernel Upstream to 4.9.275</li>
+<li>Import simplified Chinese translation in parts</li>
+<li>Improve paddings&#x2F;margins</li>
+<li>Fixed PPS charging</li>
+<li>Disable blur on app launch</li>
+<li>Enable background blur</li>
+<li>Use miui captive portal</li>
+<li>Set globally accessible NTP server</li>
+<li>Use Clang-Proton to build</li>
 </ul>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update simplified Chinese translation(MiParts)</p>
-<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><p>Move StatusBar Lyric to Statusbar Settings</p>
-<p>Rebase our source</p>
-<p>Drop Black Theme</p>
-<p>Drop Pocket Mode</p>
-<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4-HotFix_raphael-20221224-0940.zip/download">SourceForge.net</a></p>
-<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
+<h3 id="Rom"><a href="#Rom" class="headerlink" title="Rom"></a>Rom</h3><ul>
+<li>Add Statusbar Lyric</li>
+<li>Add per-app volume</li>
+<li>Add NFC qs tile</li>
+<li>Add Light qs</li>
+<li>Add lockscreen quick unlock.</li>
+<li>Allow user to add&#x2F;remove QS with one click</li>
+<li>Use color accent for charging animation</li>
+<li>Make New QS Footer background translucent</li>
+</ul>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_raphael-13.0-20221105-1836-UNOFFICIAL.zip/download">SourceForge.net</a></p>
 ]]></content>
-      <categories>
-        <category>Project-Telescopium</category>
-      </categories>
       <tags>
-        <tag>Project-Telescopium</tag>
+        <tag>PixelExperience</tag>
       </tags>
   </entry>
   <entry>
-    <title>玩客云安装Cloudreve并设置开机自启</title>
-    <url>/page/bc20.html</url>
-    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
-
-<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
-<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
-<p>执行.&#x2F;cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
-<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
-<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到&#x2F;mnt&#x2F;wd这个目录，那这里就填&#x2F;mnt&#x2F;wd，以此类推，剩下的可以不管，保存即可。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
-<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接&#x2F;快捷方式到这里写你的硬盘挂载的位置。</p>
-<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
-<p>找到用户组，设置管理员的容量。</p>
-<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
-<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
-
-<p>然后按esc，再输入:wq，就可以保存。</p>
-<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>矿渣</category>
-      </categories>
-      <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玩客云安装BT Panel</title>
-    <url>/page/2366.html</url>
-    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
-
-<p>输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
-<p>安装python-setuptools</p>
-<p>再执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>安装宝塔</p>
+    <title>PixelExperience Plus Update for raphael/raphaelin</title>
+    <url>/page/f4f12157.html</url>
+    <content><![CDATA[<h1 id="PixelExperience-Plus-Update-for-raphael-raphaelin"><a href="#PixelExperience-Plus-Update-for-raphael-raphaelin" class="headerlink" title="PixelExperience Plus Update for raphael&#x2F;raphaelin"></a>PixelExperience Plus Update for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Updated: 11&#x2F;11&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>By QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><ul>
+<li>Update redfin fingerprint</li>
+<li>Configure aux camera for Aperture</li>
+<li>Improve face unlock for popup camera</li>
+<li>Don’t warn user about FC in Google TTS</li>
+<li>Enable Face Unlock</li>
+<li>Enable Quick Tap</li>
+<li>Use release-key</li>
+</ul>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><ul>
+<li>Switch to Plus Edition</li>
+<li>Add Statusbar Lyric</li>
+<li>Add haptic feedback for qs tiles</li>
+<li>Add NFC tile</li>
+<li>Add Data Switch QS Tile</li>
+<li>Add Light QS</li>
+<li>Safetynet Passed Without Root</li>
+<li>Export RecordingService for External Usage</li>
+<li>Reset props for status bar lyric</li>
+<li>Reduce screenshot dismiss delay to 3 seconds</li>
+<li>Implement lockscreen quick unlock</li>
+<li>Override name of Mainland China carriers</li>
+</ul>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>• Don’t dirty flash from official<br>• Based on Arrow Tree<br>• FBEv1 Build<br>• OSS Vendor and Stock Kernel<br>• Use Android 11 Firmware</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/PixelExperience/PixelExperience_Plus_raphael-13.0-20221111-0403-UNOFFICIAL.zip/download">SourceForge.net</a></p>
 ]]></content>
       <categories>
-        <category>矿渣</category>
+        <category>PixelExperience</category>
       </categories>
       <tags>
-        <tag>玩客云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>长达6天的Havoc 4.12使用体验</title>
-    <url>/page/c9f2.html</url>
-    <content><![CDATA[<p>2023-5-27：陈年老文，一些观点与我现在的不同，仅供参考。</p>
-<p><img src="https://s4.ax1x.com/2022/02/13/HrKClQ.png"></p>
-<span id="more"></span>
-
-<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><h3 id="无OTA"><a href="#无OTA" class="headerlink" title="无OTA"></a>无OTA</h3><h3 id="启动器掉帧"><a href="#启动器掉帧" class="headerlink" title="启动器掉帧"></a>启动器掉帧</h3><p>自带的是Shady launcher，原本以为还挺好用，直到我再次解锁手机，评论区也有人反馈此问题。</p>
-<h3 id="无面部解锁"><a href="#无面部解锁" class="headerlink" title="无面部解锁"></a>无面部解锁</h3><p><img src="https://s4.ax1x.com/2022/02/13/HrKiOs.png"></p>
-<h3 id="汉化不全"><a href="#汉化不全" class="headerlink" title="汉化不全"></a>汉化不全</h3><p><img src="https://s4.ax1x.com/2022/02/13/HrKkmn.png"></p>
-<h3 id="双击唤醒成功率低"><a href="#双击唤醒成功率低" class="headerlink" title="双击唤醒成功率低"></a>双击唤醒成功率低</h3><p>当做没法用吧，但是双击息屏基本没啥问题，emmmm</p>
-<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>接下来来到优点篇</p>
-<h3 id="比较省电"><a href="#比较省电" class="headerlink" title="比较省电"></a>比较省电</h3><p>实测下来亮屏2-3小时（在1936毫安的官方电池下）</p>
-<p><img src="https://s4.ax1x.com/2022/02/13/HrKeYT.png"></p>
-<h3 id="自带电话可以录音"><a href="#自带电话可以录音" class="headerlink" title="自带电话可以录音"></a>自带电话可以录音</h3><p>自带电话可以录音，不需要装啥模块，蛮多类原生也有这个功能了。</p>
-<h3 id="小白条长度可以调节"><a href="#小白条长度可以调节" class="headerlink" title="小白条长度可以调节"></a>小白条长度可以调节</h3><p>4档可调。</p>
-<h3 id="游戏模式"><a href="#游戏模式" class="headerlink" title="游戏模式"></a>游戏模式</h3><p>这个自带的游戏模式就很好用，特别是对于打音游，再也不用担心玩着玩着就自己回桌面了</p>
-<p>1.以弹幕的形式显示通知</p>
-<p>2.关闭自动亮度</p>
-<p>3.关闭手势导航</p>
-<p>4.自动接听电话</p>
-<p>顺带一提也推荐大家开启“固定”</p>
-<p><img src="https://s4.ax1x.com/2022/02/13/HrKAwq.png"></p>
-<h3 id="音量级数"><a href="#音量级数" class="headerlink" title="音量级数"></a>音量级数</h3><p>系统自带了一个音量级数的调节，不用刷模块了（</p>
-<p>同时也有分应用音量调节，用米窗挂青年大学习或者遇到O泡果奶可以直接静音了（雾）</p>
-<p><img src="https://s4.ax1x.com/2022/02/13/HrKET0.png"></p>
-<h3 id="杂念"><a href="#杂念" class="headerlink" title="杂念"></a>杂念</h3><h4 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h4><p><img src="https://s4.ax1x.com/2022/02/13/HrKZkV.png"></p>
-<p>三指截图也是有的，不用担心（虽然我从来不用）</p>
-]]></content>
-      <categories>
-        <category>Havoc</category>
-      </categories>
-      <tags>
-        <tag>Havoc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Shell/Tools/Commits Backup</title>
-    <url>/page/ecfbc661.html</url>
-    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
-<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
-<p>For Ubuntu 20.04</p>
-<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
-<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
-<p>Ubuntu Tools:</p>
-<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
-<p>Debian Tools:</p>
-<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
-<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
-<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
-]]></content>
-      <tags>
-        <tag>Notes</tag>
+        <tag>PixelExperience</tag>
       </tags>
   </entry>
   <entry>
@@ -603,6 +516,173 @@
 <p>SFTP：账户root，密码powersee233</p>
 <p>transmission：账号admin，密码admin（默认停用，要去Portainer里面启用）</p>
 ]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Project-Telescopium 13.0.4-HotFix Community Build For raphael/raphaelin</title>
+    <url>/page/2827472a.html</url>
+    <content><![CDATA[<h1 id="Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin"><a href="#Project-Telescopium-13-0-4-HotFix-Community-Build-For-raphael-raphaelin" class="headerlink" title="Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin"></a>Project-Telescopium 13.0.4-HotFix Community Build For raphael&#x2F;raphaelin</h1><p>A Hotfix version for raphael&#x2F;raphaelin.</p>
+<h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Device: Redmi K20 Pro&#x2F;Mi 9T Pro(raphael&#x2F;raphaelin)</p>
+<p>Project-Telescopium Version: 13.0.4-HotFix</p>
+<p>Android Version:13(TD1A.221105.001)</p>
+<p>Android Security Update: 5 November 2022</p>
+<p>Build Date: 2022-12-24</p>
+<p>Build variant: user</p>
+<p>Maintainer: QKIvan</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li><p>You can dirty flash from 13.0.4</p>
+</li>
+<li><p>FBEv1 Build,Use Unofficial OrangeFox</p>
+</li>
+<li><p>Flash Android 11 firmware before you flash rom</p>
+</li>
+<li><p>You can download ota package from 13.0.4(in Settings –&gt; System –&gt; System Update)</p>
+</li>
+</ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Device"><a href="#Device" class="headerlink" title="Device"></a>Device</h3><p>Update simplified Chinese translation(MiParts)</p>
+<h3 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h3><p>Move StatusBar Lyric to Statusbar Settings</p>
+<p>Rebase our source</p>
+<p>Drop Black Theme</p>
+<p>Drop Pocket Mode</p>
+<h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p><a href="https://sourceforge.net/projects/qkivan-releases/files/raphael/Project-Telescopium/Project-Telescopium-13.0.4-HotFix_raphael-20221224-0940.zip/download">SourceForge.net</a></p>
+<h2 id="About-Project-Telescopium"><a href="#About-Project-Telescopium" class="headerlink" title="About Project-Telescopium"></a>About Project-Telescopium</h2><p>A Project based on PixelExperience Plus With the useful and minimal stuff.</p>
+]]></content>
+      <categories>
+        <category>Project-Telescopium</category>
+      </categories>
+      <tags>
+        <tag>Project-Telescopium</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>xdroidOSS 13-r8 Unofficial BETA for raphael/raphaelin</title>
+    <url>/page/46f62f90.html</url>
+    <content><![CDATA[<h1 id="xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin"><a href="#xdroidOSS-13-r8-Unofficial-BETA-for-raphael-raphaelin" class="headerlink" title="xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin"></a>xdroidOSS 13-r8 Unofficial BETA for raphael&#x2F;raphaelin</h1><h2 id="Build-Info"><a href="#Build-Info" class="headerlink" title="Build Info"></a>Build Info</h2><p>Released: 08&#x2F;10&#x2F;‘22</p>
+<p>Build Variant: user</p>
+<p>Android Version: 13</p>
+<p>By @QKIvan</p>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><h3 id="Source-changelog"><a href="#Source-changelog" class="headerlink" title="Source changelog:"></a>Source changelog:</h3><p><a href="https://t.me/xdroid_news/359">@xdroid_news</a></p>
+<p>Device changelog:</p>
+<p>Initial Build</p>
+<p>Use Proton-Clang</p>
+<p>Improve paddings</p>
+<p>Import simplified Chinese translation</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes:"></a>Notes:</h2><p>• FBEv1 Build<br>• Make a NAND Backup.<br>• Screen Off FOD doesn’t work<br>• OSS Vendor and Arrow Kernel<br>• Use Android 11 Firmware and OrangeFox Unofficial(FBEv1)</p>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://sourceforge.net/projects/qkivanrom/files/raphael/Android13/xdroid/INA.XD.13.0.r8-350810-raphael.REL.zip/download">SourceForge.net</a></p>
+]]></content>
+      <categories>
+        <category>xdroidOSS</category>
+      </categories>
+      <tags>
+        <tag>xdroidOSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Shell/Tools/Commits Backup</title>
+    <url>/page/ecfbc661.html</url>
+    <content><![CDATA[<h1 id="Shell-Tools-Commits-Backup"><a href="#Shell-Tools-Commits-Backup" class="headerlink" title="Shell&#x2F;Tools&#x2F;Commits Backup"></a>Shell&#x2F;Tools&#x2F;Commits Backup</h1><h2 id="AOSP-Build-Environment"><a href="#AOSP-Build-Environment" class="headerlink" title="AOSP Build Environment"></a>AOSP Build Environment</h2><p>For Debian 12</p>
+<p><code>sudo apt install git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip libncurses5 jq python-is-python3 libssl-dev rsync liblz4-tool screen</code></p>
+<p>For Ubuntu 20.04</p>
+<p><code>sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libncurses5 libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev jq python-is-python3</code></p>
+<h2 id="Dex2oat"><a href="#Dex2oat" class="headerlink" title="Dex2oat"></a>Dex2oat</h2><p>To solve dex2oat error: Upgrade Linux Kernel to 6.3</p>
+<p>Ubuntu Tools:</p>
+<p><a href="https://github.com/pimlie/ubuntu-mainline-kernel.sh">GitHub - pimlie&#x2F;ubuntu-mainline-kernel.sh: Bash script for Ubuntu (and derivatives) to easily (un)install kernels from the Ubuntu Kernel PPA</a></p>
+<p>Debian Tools:</p>
+<p><a href="https://github.com/bkw777/mainline">GitHub - bkw777&#x2F;mainline: Install mainline kernel packages from kernel.ubuntu.com</a></p>
+<p>(<a href="https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a">https://github.com/QKIvan/android_kernel_oneplus_sm8250/commit/26bff06b67aea3c3821161a10516deabd7b8088a</a>)</p>
+<h3 id="Patch-Apply-shell"><a href="#Patch-Apply-shell" class="headerlink" title="Patch Apply shell"></a>Patch Apply shell</h3><p><a href="https://github.com/QKIvan/patches/commit/d53feac1b7724552e2dc387eed9e224166a737d8">ArrowOS: Initial patches · QKIvan&#x2F;patches@d53feac · GitHub</a></p>
+]]></content>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装BT Panel</title>
+    <url>/page/2366.html</url>
+    <content><![CDATA[<h1 id="玩客云安装宝塔5-9"><a href="#玩客云安装宝塔5-9" class="headerlink" title="玩客云安装宝塔5.9"></a>玩客云安装宝塔5.9</h1><h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><span id="more"></span>
+
+<p>输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-setuptools</span><br></pre></td></tr></table></figure>
+<p>安装python-setuptools</p>
+<p>再执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>安装宝塔</p>
+]]></content>
+      <categories>
+        <category>矿渣</category>
+      </categories>
+      <tags>
+        <tag>玩客云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>长达6天的Havoc 4.12使用体验</title>
+    <url>/page/c9f2.html</url>
+    <content><![CDATA[<p>2023-5-27：陈年老文，一些观点与我现在的不同，仅供参考。</p>
+<p><img src="https://s4.ax1x.com/2022/02/13/HrKClQ.png"></p>
+<span id="more"></span>
+
+<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><h3 id="无OTA"><a href="#无OTA" class="headerlink" title="无OTA"></a>无OTA</h3><h3 id="启动器掉帧"><a href="#启动器掉帧" class="headerlink" title="启动器掉帧"></a>启动器掉帧</h3><p>自带的是Shady launcher，原本以为还挺好用，直到我再次解锁手机，评论区也有人反馈此问题。</p>
+<h3 id="无面部解锁"><a href="#无面部解锁" class="headerlink" title="无面部解锁"></a>无面部解锁</h3><p><img src="https://s4.ax1x.com/2022/02/13/HrKiOs.png"></p>
+<h3 id="汉化不全"><a href="#汉化不全" class="headerlink" title="汉化不全"></a>汉化不全</h3><p><img src="https://s4.ax1x.com/2022/02/13/HrKkmn.png"></p>
+<h3 id="双击唤醒成功率低"><a href="#双击唤醒成功率低" class="headerlink" title="双击唤醒成功率低"></a>双击唤醒成功率低</h3><p>当做没法用吧，但是双击息屏基本没啥问题，emmmm</p>
+<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>接下来来到优点篇</p>
+<h3 id="比较省电"><a href="#比较省电" class="headerlink" title="比较省电"></a>比较省电</h3><p>实测下来亮屏2-3小时（在1936毫安的官方电池下）</p>
+<p><img src="https://s4.ax1x.com/2022/02/13/HrKeYT.png"></p>
+<h3 id="自带电话可以录音"><a href="#自带电话可以录音" class="headerlink" title="自带电话可以录音"></a>自带电话可以录音</h3><p>自带电话可以录音，不需要装啥模块，蛮多类原生也有这个功能了。</p>
+<h3 id="小白条长度可以调节"><a href="#小白条长度可以调节" class="headerlink" title="小白条长度可以调节"></a>小白条长度可以调节</h3><p>4档可调。</p>
+<h3 id="游戏模式"><a href="#游戏模式" class="headerlink" title="游戏模式"></a>游戏模式</h3><p>这个自带的游戏模式就很好用，特别是对于打音游，再也不用担心玩着玩着就自己回桌面了</p>
+<p>1.以弹幕的形式显示通知</p>
+<p>2.关闭自动亮度</p>
+<p>3.关闭手势导航</p>
+<p>4.自动接听电话</p>
+<p>顺带一提也推荐大家开启“固定”</p>
+<p><img src="https://s4.ax1x.com/2022/02/13/HrKAwq.png"></p>
+<h3 id="音量级数"><a href="#音量级数" class="headerlink" title="音量级数"></a>音量级数</h3><p>系统自带了一个音量级数的调节，不用刷模块了（</p>
+<p>同时也有分应用音量调节，用米窗挂青年大学习或者遇到O泡果奶可以直接静音了（雾）</p>
+<p><img src="https://s4.ax1x.com/2022/02/13/HrKET0.png"></p>
+<h3 id="杂念"><a href="#杂念" class="headerlink" title="杂念"></a>杂念</h3><h4 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h4><p><img src="https://s4.ax1x.com/2022/02/13/HrKZkV.png"></p>
+<p>三指截图也是有的，不用担心（虽然我从来不用）</p>
+]]></content>
+      <categories>
+        <category>Havoc</category>
+      </categories>
+      <tags>
+        <tag>Havoc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玩客云安装Cloudreve并设置开机自启</title>
+    <url>/page/bc20.html</url>
+    <content><![CDATA[<h1 id="玩客云安装Cloudreve"><a href="#玩客云安装Cloudreve" class="headerlink" title="玩客云安装Cloudreve"></a>玩客云安装Cloudreve</h1><span id="more"></span>
+
+<h2 id="安装Cloudreve"><a href="#安装Cloudreve" class="headerlink" title="安装Cloudreve"></a>安装Cloudreve</h2><p>先下载文末的链接，解压，你会得到一个名为Coludreve的文件，见下图</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/crpg.png" alt="crpg.png"></p>
+<p>把这个文件上传到玩客云，然后设置Cloudreve的权限为0755或更高，</p>
+<p>执行.&#x2F;cloudreve，cloudreve就会开始运行了，这里会给你账号和密码，打开5212端口即可以进入cloudreve的管理页面。</p>
+<h2 id="Cloudreve配置"><a href="#Cloudreve配置" class="headerlink" title="Cloudreve配置"></a>Cloudreve配置</h2><p>输入刚刚的账号密码登录，在弹出来的菜单里选择管理面板。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/consle.png" alt="consle.png"></p>
+<p>进到管理面板里面之后，点击站点信息，再点击上传与下载，找到临时目录，这里你要设置一个文件夹当Cloudreve的临时目录，这里随便你写到那里，然后找到存储策略，找到默认存储策略，点击那个笔（编辑），选择向导模式编辑，找到第一项，这里是写云盘的储存目录，假如我的硬盘挂载到&#x2F;mnt&#x2F;wd这个目录，那这里就填&#x2F;mnt&#x2F;wd，以此类推，剩下的可以不管，保存即可。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/chucun.png" alt="chucun.png"></p>
+<p>如果这里你无法保存的话，你就先上传一个文件，然后你存放cloudreve的文件夹会出现一个uploads文件夹，删掉他，然后新建一个连接，命名为uploads，建立连接&#x2F;快捷方式到这里写你的硬盘挂载的位置。</p>
+<p><img src="http://ivanstar.gitee.io/photo/cr/link.png" alt="link.png"></p>
+<p>找到用户组，设置管理员的容量。</p>
+<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><p>配置好之后，我们就要设置开机自启动了，在SSH里执行：<code>vim /usr/lib/systemd/system/cloudreve.service</code></p>
+<p>然后按下i键，将下面的配置粘贴到里面（把PATH_TO_CLOUDREVE改成你存放cloudreve的文件夹）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Cloudreve</span><br><span class="line">Documentation=https://docs.cloudreve.org</span><br><span class="line">After=network.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">WorkingDirectory=/PATH_TO_CLOUDREVE</span><br><span class="line">ExecStart=/PATH_TO_CLOUDREVE/cloudreve</span><br><span class="line">Restart=on-abnormal</span><br><span class="line">RestartSec=5s</span><br><span class="line">KillMode=mixed</span><br><span class="line"></span><br><span class="line">StandardOutput=null</span><br><span class="line">StandardError=syslog</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>然后按esc，再输入:wq，就可以保存。</p>
+<p>然后再在ssh里面执行下面的命令（一行一行的复制）：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl start cloudreve</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">systemctl enable cloudreve</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>矿渣</category>
       </categories>
